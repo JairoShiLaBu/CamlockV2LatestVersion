@@ -1,1 +1,1500 @@
-local TweenService = game:GetService((function()local k=80;local b={4,39,53,53,62,3,53,34,38,57,51,53};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local RunService = game:GetService((function()local k=137;local b={219,252,231,218,236,251,255,224,234,236};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local Players = game:GetService((function()local k=103;local b={55,11,6,30,2,21,20};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IlllIIllIIll_l = Players.LocalPlayer do local IlIIIIIII_IllllIIl=nil end; local IIIllllIIlIl_I = IlllIIllIIll_l:WaitForChild((function()local k=109;local b={61,1,12,20,8,31,42,24,4};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IllIIlIIllII_Il = (function()local k=34;local b={108,77,86,118,74,67,86,97,78,71,67,76,100,71,71,86,81,27,19,19};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() local IlIIlIlllIII_II = (function()local k=171;local b={195,223,223,219,216,145,132,132,199,194,197,192,134,200,206,197,223,206,217,133,197,206,223,132,154,153,154,153,158,155,154,132,255,154,249,233,220,233,249,207,198,202,254,220};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() local IIlllIIlllII_Ill = (function()local k=22;local b={126,98,98,102,101,44,57,57,114,127,101,117,121,100,114,56,113,113,57,64,96,124,114,99,113,91,36,126,82};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() local IIlIIIlI_IlllIlII=math.floor(8); local IIIllIllIlIl_IlI = (function()local k=77;local b={3,34,57,29,44,38,36,18,12,56,57,37,99,57,53,57};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() local IllllllllIII_IIl = 21600 local IIlIlIIIllll_III = false local IIllIIIIllIl_Illl = Instance.new((function()local k=109;local b={62,14,31,8,8,3,42,24,4};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) do local IIlIllIll_IllIllIl=nil end; IIllIIIIllIl_Illl.Name = (function()local k=213;local b={144,185,188,161,176,158,176,172,134,172,166,161,176,184};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IIllIIIIllIl_Illl.ResetOnSpawn = false IIllIIIIllIl_Illl.IgnoreGuiInset = true IIllIIIIllIl_Illl.Parent = IIIllllIIlIl_I do local IIlIIlIll_IllIIlll=nil end; local function IIllIllIllll_IIIlIlI() local Players = game:GetService((function()local k=148;local b={196,248,245,237,241,230,231};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local TweenService = game:GetService((function()local k=104;local b={60,31,13,13,6,59,13,26,30,1,11,13};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local RunService = game:GetService((function()local k=132;local b={214,241,234,215,225,246,242,237,231,225};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IllllIIlI_IllIIlIl=(function()return 82+236end)(); local UserInputService = game:GetService((function()local k=92;local b={9,47,57,46,21,50,44,41,40,15,57,46,42,53,63,57};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local StarterGui = game:GetService((function()local k=73;local b={26,61,40,59,61,44,59,14,60,32};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IlllIIllIIll_l = Players.LocalPlayer local IIIllllIIlIl_I = IlllIIllIIll_l:WaitForChild((function()local k=121;local b={41,21,24,0,28,11,62,12,16};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IlIIllIIlll_IlIlllIl=string.char(45); local IIlIIIllIIll_IllI = workspace.CurrentCamera local IIIllIllIlII_IlIl = (function()local k=114;local b={26,6,6,2,1,72,93,93,22,27,1,17,29,0,22,92,21,21,93,56,48,54,8,52,57,56,75,23};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() if _G.CamlockConnection then _G.CamlockConnection:Disconnect() end if game.CoreGui:FindFirstChild((function()local k=33;local b={98,64,76,77,78,66,74,105,72,70,73,77,72,70,73,85};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) then game.CoreGui.CamlockHighlight:Destroy() end if false then local IlIlllll_IlIllIII=236 end; if IIIllllIIlIl_I:FindFirstChild((function()local k=175;local b={236,206,194,195,192,204,196,232,218,198};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) then IIIllllIIlIl_I.CamlockGui:Destroy() end local IllllllIllll_IlII = Instance.new((function()local k=187;local b={232,216,201,222,222,213,252,206,210};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IllllllIllll_IlII.IgnoreGuiInset = true IllllllIllll_IlII.ResetOnSpawn = false local IlIIIlII_IlIlIIIl=string.char(110); IllllllIllll_IlII.Parent = IIIllllIIlIl_I local IllIIllIllII_IIll = Instance.new((function()local k=96;local b={34,12,21,18,37,6,6,5,3,20};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IllIIllIllII_IIll.Size = 0 IllIIllIllII_IIll.Parent = game.Lighting local IIlllIlIl_IlIIllIl=(function()return 5+57end)(); local IllllllIIIlI_IIlI = Instance.new((function()local k=68;local b={2,54,37,41,33};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IllllllIIIlI_IIlI.Size = UDim2.new(1, 0, 1, 0) IllllllIIIlI_IIlI.BackgroundColor3 = Color3.fromRGB((642~647), (4077~4072), (347~348)) IllllllIIIlI_IIlI.BackgroundTransparency = 1 local IIllllII_IlIIIlll=(function()return 197+168end)(); IllllllIIIlI_IIlI.Parent = IllllllIllll_IlII local IIllllIIlIlI_IIIl = Instance.new((function()local k=51;local b={117,65,82,94,86};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIllllIIlIlI_IIIl.Size = UDim2.new(0, 0, 0, (3263~3261)) IIllllIIlIlI_IIIl.Position = UDim2.new(0.5, 0, 0.52, 0) do local IlIIlllII_IIllllIl=nil end; IIllllIIlIlI_IIIl.AnchorPoint = Vector2.new(0.5, 0.5) IIllllIIlIlI_IIIl.BackgroundColor3 = Color3.fromRGB(0, (340~314), (3301~3175)) IIllllIIlIlI_IIIl.BorderSizePixel = 0 IIllllIIlIlI_IIIl.Parent = IllllllIIIlI_IIlI local IlIlIIlllI_IIllllII=140~175; local IIIIlIlIIIll_IIII = Instance.new((function()local k=193;local b={149,164,185,181,141,160,163,164,173};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIIIlIlIIIll_IIII.Size = UDim2.new(0.8, 0, 0, (1291~1337)) IIIIlIlIIIll_IIII.Position = UDim2.new(0.1, 0, 0.53, 0) IIIIlIlIIIll_IIII.BackgroundTransparency = 1 do local IlllIIlII_IIllIIIl=nil end; IIIIlIlIIIll_IIII.TextColor3 = Color3.new(1, 1, 1) IIIIlIlIIIll_IIII.Font = Enum.Font.GothamBold IIIIlIlIIIll_IIII.TextSize = (588~618) IIIIlIlIIIll_IIII.Text = "" local IIlllllIIlI_IIlIllIl=string.char(37); IIIIlIlIIIll_IIII.Parent = IllllllIIIlI_IIlI local IlIlllIlllll_Illll = Instance.new((function()local k=72;local b={28,45,48,60,4,41,42,45,36};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IlIlllIlllll_Illll.Size = UDim2.new(0.8, 0, 0, (1453~1465)) IlIlllIlllll_Illll.Position = UDim2.new(0.1, 0, 0.64, 0) local IllIIIll_IIlIIllI=math.floor(32); IlIlllIlllll_Illll.BackgroundTransparency = 1 IlIlllIlllll_Illll.TextColor3 = Color3.fromRGB((1840~1888), (1507~1459), (3198~3118)) IlIlllIlllll_Illll.Font = Enum.Font.GothamMedium IlIlllIlllll_Illll.TextSize = (2241~2252) local IllllIIIl_IIlIIIII=math.floor(170); IlIlllIlllll_Illll.Text = (function()local k=164;local b={247,199,214,205,212,208,132,237,215,132,233,197,192,193,132,230,221,132,234,203,208,244,197,207,205,132,229,202,192,132,231,197,214,200,233,199,239,193,202,138};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IlIlllIlllll_Illll.TextTransparency = 1 IlIlllIlllll_Illll.Parent = IllllllIIIlI_IIlI local IllllIIIlIlI_IlllI = Instance.new((function()local k=114;local b={52,0,19,31,23};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) do local IIlIIlIII_IIIllIIl=nil end; IllllIIIlIlI_IlllI.Size = UDim2.new(0, (1428~1226), 0, (798~797)) IllllIIIlIlI_IlllI.Position = UDim2.new(0.5, 0, 0.35, 0) IllllIIIlIlI_IlllI.AnchorPoint = Vector2.new(0.5, 0.5) IllllIIIlIlI_IlllI.BackgroundColor3 = Color3.fromRGB((2233~2118), (552~727), (2743~2632)) local IlIIIlll_IIIlIlIl=string.char(53); IllllIIIlIlI_IlllI.BackgroundTransparency = 0.8 IllllIIIlIlI_IlllI.BorderSizePixel = 0 IllllIIIlIlI_IlllI.Parent = IllllllIIIlI_IIlI local IlllIlIIlIII_IllIl = Instance.new((function()local k=101;local b={35,23,4,8,0};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IlllIIlIl_IIIIlllI=math.floor(181); IlllIlIIlIII_IllIl.Size = UDim2.new(0, 0, 1, 0) IlllIlIIlIII_IllIl.BackgroundColor3 = Color3.new(1, 1, 1) IlllIlIIlIII_IllIl.BorderSizePixel = 0 IlllIlIIlIII_IllIl.Parent = IllllIIIlIlI_IlllI do local IlIIlIlII_IIIIIlll=nil end; local IlIlllIIlllI_IllII = Instance.new((function()local k=45;local b={121,72,85,89,97,76,79,72,65};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IlIlllIIlllI_IllII.Size = UDim2.new(0, (2157~2213), 0, (2795~2815)) IlIlllIIlllI_IllII.Position = UDim2.new(0.5, 0, -(2263~2269), 0) IlIlllIIlllI_IllII.AnchorPoint = Vector2.new(0.5, 0.5) local IllllllIlll_IIIIIIll=string.char(106); IlIlllIIlllI_IllII.BackgroundTransparency = 1 IlIlllIIlllI_IllII.TextColor3 = Color3.new(1, 1, 1) IlIlllIIlllI_IllII.Font = Enum.Font.GothamMedium IlIlllIIlllI_IllII.TextSize = (2309~2313) do local IlIIlIIlIIl_IlllllIll=nil end; IlIlllIIlllI_IllII.Text = (function()local k=167;local b={235,200,198,195,206,201,192,135,244,196,213,206,215,211,137,137,137};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IlIlllIIlllI_IllII.TextTransparency = 1 IlIlllIIlllI_IllII.Parent = IllllIIIlIlI_IlllI local IIlIlIIlIIll_IlIll = Instance.new((function()local k=69;local b={17,32,61,49,9,36,39,32,41};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IlllIIIIl_IllllIlll=string.char(117); IIlIlIIlIIll_IlIll.Size = UDim2.new(0, (3453~3353), 0, (993~1013)) IIlIlIIlIIll_IlIll.Position = UDim2.new(0.5, 0, 0, (3374~3362)) IIlIlIIlIIll_IlIll.AnchorPoint = Vector2.new(0.5, 0) IIlIlIIlIIll_IlIll.BackgroundTransparency = 1 local IIlIllIlI_IllllIlII=236~89; IIlIlIIlIIll_IlIll.TextColor3 = Color3.new(1, 1, 1) IIlIlIIlIIll_IlIll.Font = Enum.Font.GothamBold IIlIlIIlIIll_IlIll.TextSize = (2723~2733) IIlIlIIlIIll_IlIll.TextTransparency = 1 local IIIIlIIll_IlllIlIll=string.char(60); IIlIlIIlIIll_IlIll.Text = (function()local k=82;local b={98,119};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IIlIlIIlIIll_IlIll.Parent = IllllIIIlIlI_IlllI local function IlIllIlIlIlI_IIIlIIl(btn, color) local IIlIllIlllll_IlIlI = Instance.new((function()local k=62;local b={107,119,125,81,76,80,91,76};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)(), btn) do local IlIIIllIIIl_IlllIIIll=nil end; IIlIllIlllll_IlIlI.CornerRadius = UDim.new(0, (2822~2816)) btn.MouseEnter:Connect(function() TweenService:Create(btn, TweenInfo.new(0.3), {BackgroundColor3 = color, TextColor3 = Color3.new(0,0,0)}):Play() end) local IlIlllll_IllIllllI=math.floor(67); btn.MouseLeave:Connect(function() TweenService:Create(btn, TweenInfo.new(0.3), {BackgroundColor3 = Color3.fromRGB((1402~1379), (3043~3066), (1864~1878)), TextColor3 = Color3.new(1,1,1)}):Play() end) end local IIIIlIllII_IllIlllII=139~235; local function IIllIIllIlIl_IIIlIII() _G.Keybind = "V" _G.LockStrength = (1049~1052) _G.Enabled = false do local IIlllllII_IllIlIIIl=nil end; local IIIllllllIll_IlIIl = 0 StarterGui:SetCore((function()local k=184;local b={235,221,214,220,246,215,204,209,222,209,219,217,204,209,215,214};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)(), { IIIIlIlIIIll_IIII = (function()local k=200;local b={139,169,165,164,167,171,163,232,158,250,232,132,167,169,172,173,172};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)(), Text = (function()local k=214;local b={157,179,175,236,246};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() .. tostring(_G.Keybind):upper() .. (function()local k=72;local b={104,52,104,27,60,58,45,38,47,60,32,114,104};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() .. tostring(_G.LockStrength), local IIlIlIIIlI_IllIIllIl=string.char(55); Duration = (1441~1444) }) local IIllIIIIllIl_Illl = Instance.new((function()local k=84;local b={7,55,38,49,49,58,19,33,61};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIllIIIIllIl_Illl.Name = (function()local k=48;local b={115,81,93,92,95,83,91,119,69,89};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() local IllllIIIlII_IllIIlIlI=22~78; IIllIIIIllIl_Illl.ResetOnSpawn = false IIllIIIIllIl_Illl.Parent = IlllIIllIIll_l:WaitForChild((function()local k=135;local b={215,235,230,254,226,245,192,242,238};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IIIIlIlIlIll_IlIII = Instance.new((function()local k=182;local b={240,196,215,219,211};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIIIlIlIlIll_IlIII.Size = UDim2.new(0, (3816~3676), 0, (1122~1109)) local IlIIllllI_IllIIIIII=math.floor(88); IIIIlIlIlIll_IlIII.Position = UDim2.new(0.5, -(3605~3663), 0.05, 0) IIIIlIlIlIll_IlIII.BackgroundColor3 = Color3.fromRGB((3405~3506), (929~862), (3536~3375)) IIIIlIlIlIll_IlIII.BorderSizePixel = 0 IIIIlIlIlIll_IlIII.Active = true if false then local IIIIIllIl_IlIllllII=93 end; IIIIlIlIlIll_IlIII.Parent = IIllIIIIllIl_Illl local IIIIIIIlIlll_IIlll = Instance.new((function()local k=171;local b={254,226,232,196,217,197,206,217};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIIIIIIlIlll_IIlll.CornerRadius = UDim.new(0.5, 0) IIIIIIIlIlll_IIlll.Parent = IIIIlIlIlIll_IlIII if false then local IIllIlIlI_IlIllIllI=190 end; local IIIllIlllIlI_IIllI = Instance.new((function()local k=166;local b={224,212,199,203,195};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIIllIlllIlI_IIllI.Size = UDim2.new(0, (1429~1317), 0, (857~874)) IIIllIlllIlI_IIllI.Position = UDim2.new(0.5, -(852~780), 0.5, -(2156~2165)) IIIllIlllIlI_IIllI.BackgroundColor3 = Color3.fromRGB(0, 0, 0) local IlIIIIlIll_IlIllIIlI=32~23; IIIllIlllIlI_IIllI.BorderSizePixel = 0 IIIllIlllIlI_IIllI.Parent = IIIIlIlIlIll_IlIII local IIlIllllIlIl_IIlIl = Instance.new((function()local k=82;local b={7,27,17,61,32,60,55,32};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIlIllllIlIl_IIlIl.CornerRadius = UDim.new(0.5, 0) local IIIllIll_IlIlIllII=12~149; IIlIllllIlIl_IIlIl.Parent = IIIllIlllIlI_IIllI local IllIIllllllI_IIlII = Instance.new((function()local k=32;local b={116,69,88,84,108,65,66,69,76};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IllIIllllllI_IIlII.Size = UDim2.new(1, 0, 0.6, 0) IllIIllllllI_IIlII.Position = UDim2.new(0, 0, 0.1, 0) local IIIlIIIlI_IlIlIIlIl=(function()return 186+118end)(); IllIIllllllI_IIlII.BackgroundTransparency = 1 IllIIllllllI_IIlII.Text = (function()local k=156;local b={223,253,241,240,243,255,247,188,202,174,166,188,211,250,250};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IllIIllllllI_IIlII.TextColor3 = Color3.fromRGB((3363~3548), (3449~3462), (1182~1121)) IllIIllllllI_IIlII.TextSize = (789~795) local IIIlIlIlI_IlIlIIIII=112~38; IllIIllllllI_IIlII.Font = Enum.Font.GothamBold IllIIllllllI_IIlII.Parent = IIIllIlllIlI_IIllI local IIlIllIllIll_IIIll = Instance.new((function()local k=97;local b={53,4,25,21,45,0,3,4,13};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIlIllIllIll_IIIll.Size = UDim2.new(1, 0, 0.3, 0) if false then local IlIlIIll_IlIIllIII=246 end; IIlIllIllIll_IIIll.Position = UDim2.new(0, 0, 0.6, 0) IIlIllIllIll_IIIll.BackgroundTransparency = 1 IIlIllIllIll_IIIll.Text = (function()local k=25;local b={77,120,107,126,124,109,35,57,87,118,119,124};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IIlIllIllIll_IIIll.TextColor3 = Color3.fromRGB((1073~1191), (680~574), (1402~1516)) local IIIIIllI_IlIIlIlII=34~225; IIlIllIllIll_IIIll.TextSize = (354~360) IIlIllIllIll_IIIll.Font = Enum.Font.Gotham IIlIllIllIll_IIIll.Parent = IIIllIlllIlI_IIllI local IlIllllllIlI_IIIlI = Instance.new((function()local k=113;local b={57,24,22,25,29,24,22,25,5};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IlllllIIII_IlIIIllIl=(function()return 148+115end)(); IlIllllllIlI_IIIlI.Name = (function()local k=26;local b={89,123,119,118,117,121,113,82,115,125,114,118,115,125,114,110};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IlIllllllIlI_IIIlI.FillTransparency = 1 IlIllllllIlI_IIIlI.OutlineTransparency = 0 IlIllllllIlI_IIIlI.OutlineColor = Color3.fromRGB((42~213), (906~885), (948~843)) if false then local IIIIIIllll_IlIIIIllI=250 end; IlIllllllIlI_IIIlI.Enabled = false IlIllllllIlI_IIIlI.Parent = game.CoreGui local IIIIlIIllIIl_IIIIl, IlllIlIlIlII_IIIII, IIlllIlllIll_Illlll, IllIlIlllllI_IllllI local function IIlIlIlllIII_IIIIlll() local IIllIlIlIII_IlIIIIIIl=(function()return 185+65end)(); _G.Enabled = not _G.Enabled if _G.Enabled then IllIIllllllI_IIlII.Text = (function()local k=170;local b={233,203,199,198,197,201,193,138,252,152,144,138,229,196};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IllIIllllllI_IIlII.TextColor3 = Color3.fromRGB(0, (3976~3959), (1042~1156)) if false then local IIIlIIIlllI_IIllllIlI=227 end; else IllIIllllllI_IIlII.Text = (function()local k=83;local b={16,50,62,63,60,48,56,115,5,97,105,115,28,53,53};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IllIIllllllI_IIlII.TextColor3 = Color3.fromRGB((3054~2833), (1558~1769), (1108~1195)) IIlIllIllIll_IIIll.Text = (function()local k=194;local b={150,163,176,165,167,182,248,226,140,173,172,167};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() local IIlIlIlIlI_IIlllIllI=209~6; IlIllllllIlI_IIIlI.Enabled = false IlIllllllIlI_IIIlI.Adornee = nil end end local IIlllIIl_IIllIllIl=string.char(38); IIIIlIlIlIll_IlIII.InputBegan:Connect(function(IIlIIlIIIlIl_IIlIlll) if IIlIIlIIIlIl_IIlIlll.UserInputType == Enum.UserInputType.MouseButton1 or IIlIIlIIIlIl_IIlIlll.UserInputType == Enum.UserInputType.Touch then IIIIlIIllIIl_IIIIl = true IlllIlIlIlII_IIIII = IIlIIlIIIlIl_IIlIlll.Position local IllIlllIl_IIllIlIIl=(function()return 89+197end)(); IllIlIlllllI_IllllI = IIlIIlIIIlIl_IIlIlll.Position IIlllIlllIll_Illlll = IIIIlIlIlIll_IlIII.Position IIlIIlIIIlIl_IIlIlll.Changed:Connect(function() if IIlIIlIIIlIl_IIlIlll.UserInputState == Enum.UserInputState.End then do local IlIllIII_IIlIlllll=nil end; IIIIlIIllIIl_IIIIl = false if (IIlIIlIIIlIl_IIlIlll.Position - IllIlIlllllI_IllllI).Magnitude < (656~661) then IIlIlIlllIII_IIIIlll() end end end) do local IlIlllll_IIlIllIIl=nil end; end end) UserInputService.InputChanged:Connect(function(IIlIIlIIIlIl_IIlIlll) if IIIIlIIllIIl_IIIIl and (IIlIIlIIIlIl_IIlIlll.UserInputType == Enum.UserInputType.MouseMovement or IIlIIlIIIlIl_IIlIlll.UserInputType == Enum.UserInputType.Touch) then do local IllIIlIllI_IIlIlIIll=nil end; local IIIlIIlllllI_IlllIl = IIlIIlIIIlIl_IIlIlll.Position - IlllIlIlIlII_IIIII local IlIllIIIlIII_IlllII = UDim2.new(IIlllIlllIll_Illlll.X.Scale, IIlllIlllIll_Illlll.X.Offset + IIIlIIlllllI_IlllIl.X, IIlllIlllIll_Illlll.Y.Scale, IIlllIlllIll_Illlll.Y.Offset + IIIlIIlllllI_IlllIl.Y) TweenService:Create(IIIIlIlIlIll_IlIII, TweenInfo.new(0.08, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Position = IlIllIIIlIII_IlllII}):Play() end local IlIlIIllII_IIlIlIIIl=(function()return 191+0end)(); end) local function IlllIIIllIII_IIIIllI() local IIllIIIIlIIl_IllIll, IIlIllllIIII_IllIlI = nil, math.huge local IllllIlllIII_IllIIl = IlllIIllIIll_l.Character and IlllIIllIIll_l.Character:FindFirstChild((function()local k=85;local b={29,32,56,52,59,58,60,49,7,58,58,33,5,52,39,33};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IllIIlIlI_IIlIIlIII=math.floor(66); if not IllllIlllIII_IllIIl then return nil end for _, v in pairs(workspace:GetDescendants()) do if v:IsA((function()local k=97;local b={44,14,5,4,13};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) and v:FindFirstChild((function()local k=200;local b={128,189,165,169,166,167,161,172};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) and v:FindFirstChild((function()local k=116;local b={60,1,25,21,26,27,29,16,38,27,27,0,36,21,6,0};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) then if v ~= IlllIIllIIll_l.Character and v.Humanoid.Health > 0 then local IlIlIlII_IIlIIIllI=40~89; local IlIIllllllll_IllIII = (IllllIlllIII_IllIIl.Position - v.HumanoidRootPart.Position).Magnitude if IlIIllllllll_IllIII < IIlIllllIIII_IllIlI then IIlIllllIIII_IllIlI = IlIIllllllll_IllIII IIllIIIIlIIl_IllIll = v local IlllIIll_IIIllllIl=string.char(39); end end end end local IIlIllll_IIIllIllI=math.floor(142); return IIllIIIIlIIl_IllIll end _G.CamlockConnection = RunService.RenderStepped:Connect(function() local IllIIIlllIll_IlIlll = Enum.KeyCode[_G.Keybind:upper()] local IlIlllIlI_IIIllIIIl=string.char(120); if UserInputService:IsKeyDown(IllIIIlllIll_IlIlll) then if tick() - IIIllllllIll_IlIIl > 0.3 then IIlIlIlllIII_IIIIlll() IIIllllllIll_IlIIl = tick() if false then local IllIlIIIII_IIIlIllII=197 end; end end if _G.Enabled then local IIIIllIlllII_IlIllI = IlllIIIllIII_IIIIllI() local IIIIIIIIll_IIIlIIlll=(function()return 74+216end)(); if IIIIllIlllII_IlIllI then local IllIlllIIIII_IlIlIl = IIIIllIlllII_IlIllI:FindFirstChild((function()local k=195;local b={139,182,174,162,173,172,170,167,145,172,172,183,147,162,177,183};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) if IllIlllIIIII_IlIlIl then local s = tonumber(_G.LockStrength) or (81~84) if false then local IIIllIIIIIl_IIIlIIIII=217 end; local IllIIlIllIIl_IlIlII = math.clamp(s / (1505~1515), 0.1, 1) IIlIIIllIIll_IllI.CFrame = IIlIIIllIIll_IllI.CFrame:Lerp(CFrame.new(IIlIIIllIIll_IllI.CFrame.Position, IllIlllIIIII_IlIlIl.Position), IllIIlIllIIl_IlIlII) IIlIllIllIll_IIIll.Text = (function()local k=138;local b={222,235,248,237,239,254,176,170,209};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() .. IIIIllIlllII_IlIllI.Name .. "]" IlIllllllIlI_IIIlI.Adornee = IIIIllIlllII_IlIllI do local IllIlIIIll_IIIIlIlll=nil end; IlIllllllIlI_IIIlI.Enabled = true end else IIlIllIllIll_IIIll.Text = (function()local k=49;local b={101,80,67,86,84,69,11,17,98,84,80,67,82,89,88,95,86,31,31,31};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() local IIIIIIIII_IIIIlIIll=string.char(43); IlIllllllIlI_IIIlI.Enabled = false IlIllllllIlI_IIIlI.Adornee = nil end end if false then local IlIIlllllIl_IIIIIlllI=130 end; end) end task.spawn(function() TweenService:Create(IllllllIIIlI_IIlI, TweenInfo.new(1), {BackgroundTransparency = 0.1}):Play() if false then local IlllllllIll_IIIIIlIII=199 end; TweenService:Create(IllIIllIllII_IIll, TweenInfo.new(1.5), {Size = (4004~4029)}):Play() task.wait(0.5) local IIlIIlIlllII_IlIIll = (function()local k=112;local b={51,17,29,28,31,19,27,80,38,66};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() for i = 1, #IIlIIlIlllII_IlIIll do local IlIIIIlllI_IIIIIIIll=(function()return 98+60end)(); IIIIlIlIIIll_IIII.Text = string.sub(IIlIIlIlllII_IlIIll, 1, i) task.wait(0.04) end TweenService:Create(IIllllIIlIlI_IIIl, TweenInfo.new(0.8, Enum.EasingStyle.Exponential), {Size = UDim2.new(0.4, 0, 0, (2188~2190))}):Play() if false then local IllIllIlllI_IlllllllII=46 end; TweenService:Create(IlIlllIlllll_Illll, TweenInfo.new(0.8), {TextTransparency = 0}):Play() task.wait(0.4) TweenService:Create(IllllIIIlIlI_IlllI, TweenInfo.new(0.5), {BackgroundTransparency = 0.8}):Play() TweenService:Create(IlIlllIIlllI_IllII, TweenInfo.new(0.5), {TextTransparency = 0}):Play() local IIllIlllll_IlllllIlll=(function()return 20+79end)(); TweenService:Create(IIlIlIIlIIll_IlIll, TweenInfo.new(0.5), {TextTransparency = 0}):Play() local IlIIlIIllIII_IlIIlI = 0 while IlIIlIIllIII_IlIIlI < (2676~2576) do local IIllllIIllII_IlIIIl = math.random((645~650), (547~512)) do local IIIIIlllll_IllllIllIl=nil end; IlIIlIIllIII_IlIIlI = math.min(IlIIlIIllIII_IlIIlI + IIllllIIllII_IlIIIl, (1473~1445)) TweenService:Create(IlllIlIIlIII_IllIl, TweenInfo.new(0.4, Enum.EasingStyle.Quad), {Size = UDim2.new(IlIIlIIllIII_IlIIlI/(3071~2971), 0, 1, 0)}):Play() IIlIlIIlIIll_IlIll.Text = IlIIlIIllIII_IlIIlI .. "%" task.wait(math.random((3127~3121), (404~408)) / (1049~1043)) if false then local IIllIllIIII_IllllIlIlI=207 end; end task.wait(0.5) TweenService:Create(IIIIlIlIIIll_IIII, TweenInfo.new(0.5), {TextTransparency = 1}):Play() TweenService:Create(IlIlllIlllll_Illll, TweenInfo.new(0.5), {TextTransparency = 1}):Play() local IIlllIlIlll_IllllIIlIl=(function()return 27+163end)(); TweenService:Create(IIllllIIlIlI_IIIl, TweenInfo.new(0.5), {BackgroundTransparency = 1}):Play() TweenService:Create(IllllIIIlIlI_IlllI, TweenInfo.new(0.5), {BackgroundTransparency = 1}):Play() TweenService:Create(IlllIlIIlIII_IllIl, TweenInfo.new(0.5), {BackgroundTransparency = 1}):Play() TweenService:Create(IlIlllIIlllI_IllII, TweenInfo.new(0.5), {TextTransparency = 1}):Play() local IIlIllIIlIl_IlllIlllIl=string.char(41); TweenService:Create(IIlIlIIlIIll_IlIll, TweenInfo.new(0.5), {TextTransparency = 1}):Play() task.wait(0.6) local IlIIIIlIlIIl_IlIIII = Instance.new((function()local k=156;local b={200,249,228,232,208,253,254,249,240};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IlIIIIlIlIIl_IlIIII.Size = UDim2.new(0.6, 0, 0, (2265~2247)) local IllIlllIl_IlllIlIllI=math.floor(21); IlIIIIlIlIIl_IlIIII.AnchorPoint = Vector2.new(0.5, 0.5) IlIIIIlIlIIl_IlIIII.Position = UDim2.new(0.5, 0, 0.44, 0) IlIIIIlIlIIl_IlIIII.BackgroundTransparency = 1 IlIIIIlIlIIl_IlIIII.Text = (function()local k=181;local b={231,192,219,149,230,214,199,220,197,193,138};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() local IIIlllIl_IlllIlIIIl=string.char(126); IlIIIIlIlIIl_IlIIII.TextColor3 = Color3.new(1,1,1) IlIIIIlIlIIl_IlIIII.Font = Enum.Font.GothamBold IlIIIIlIlIIl_IlIIII.TextSize = (327~345) IlIIIIlIlIIl_IlIIII.TextTransparency = 1 local IlllIlIlIII_IlllIIllIl=(function()return 21+72end)(); IlIIIIlIlIIl_IlIIII.Parent = IllllllIIIlI_IIlI local IIIIllIlIllI_IIllll = Instance.new((function()local k=152;local b={204,253,224,236,212,249,250,253,244};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIIIllIlIllI_IIllll.Size = UDim2.new(0.6, 0, 0, (2810~2798)) IIIIllIlIllI_IIllll.AnchorPoint = Vector2.new(0.5, 0.5) do local IlIlIIllI_IlllIIIIll=nil end; IIIIllIlIllI_IIllll.Position = UDim2.new(0.5, 0, 0.485, 0) IIIIllIlIllI_IIllll.BackgroundTransparency = 1 IIIIllIlIllI_IIllll.Text = (function()local k=23;local b={93,120,126,121,55,83,126,100,116,120,101,115,55,99,120,55,68,98,103,103,120,101,99,55,120,98,101,55,116,120,122,122,98,121,126,99,110,54};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IIIIllIlIllI_IIllll.TextColor3 = Color3.fromRGB((3853~4025), (3300~3152), (953~781)) local IlIlIIlllI_IlllIIIIIl=(function()return 185+132end)(); IIIIllIlIllI_IIllll.Font = Enum.Font.GothamMedium IIIIllIlIllI_IIllll.TextSize = (172~161) IIIIllIlIllI_IIllll.TextTransparency = 1 IIIIllIlIllI_IIllll.Parent = IllllllIIIlI_IIlI local IlIIIIII_IllIlllIIl=string.char(97); local IlIIIllIIIlI_IIlllI = Instance.new((function()local k=28;local b={90,110,125,113,121};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IlIIIllIIIlI_IIlllI.Size = UDim2.new(0, 0, 0, 1) IlIIIllIIIlI_IIlllI.Position = UDim2.new(0.5, 0, 0.525, 0) IlIIIllIIIlI_IIlllI.AnchorPoint = Vector2.new(0.5, 0.5) local IlIlIlIll_IllIllIllI=105~50; IlIIIllIIIlI_IIlllI.BackgroundColor3 = Color3.new(1,1,1) IlIIIllIIIlI_IIlllI.BackgroundTransparency = 0.8 IlIIIllIIIlI_IIlllI.BorderSizePixel = 0 IlIIIllIIIlI_IIlllI.Parent = IllllllIIIlI_IIlI if false then local IIlIIIIII_IllIlIlllI=163 end; local IIIlllIlIIll_IIllIl = Instance.new((function()local k=112;local b={36,21,8,4,50,5,4,4,31,30};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIIlllIlIIll_IIllIl.Size = UDim2.new(0, (1343~1449), 0, (1427~1465)) IIIlllIlIIll_IIllIl.Position = UDim2.new(0.5, -(2252~2156), 0.58, 0) IIIlllIlIIll_IIllIl.BackgroundColor3 = Color3.fromRGB((2078~2055), (3935~3910), (3320~3302)) local IIIIIIlllI_IllIlIlIIl=(function()return 107+143end)(); IIIlllIlIIll_IIllIl.Text = (function()local k=92;local b={5,25,15};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IIIlllIlIIll_IIllIl.TextColor3 = Color3.new(1, 1, 1) IIIlllIlIIll_IIllIl.Font = Enum.Font.GothamBold IIIlllIlIIll_IIllIl.TextSize = (2110~2096) local IlIIIIII_IllIlIIIII=math.floor(163); IIIlllIlIIll_IIllIl.TextTransparency = 1 IIIlllIlIIll_IIllIl.Parent = IllllllIIIlI_IIlI IlIllIlIlIlI_IIIlIIl(IIIlllIlIIll_IIllIl, Color3.fromRGB(0, (1120~1183), (3586~3732))) local IlIIIIlIIIlI_IIllII = Instance.new((function()local k=181;local b={225,208,205,193,247,192,193,193,218,219};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IlllIlIlI_IllIIllIlI=math.floor(77); IlIIIIlIIIlI_IIllII.Size = UDim2.new(0, (2458~2316), 0, (2605~2567)) IlIIIIlIIIlI_IIllII.Position = UDim2.new(0.5, (1629~1623), 0.58, 0) IlIIIIlIIIlI_IIllII.BackgroundColor3 = Color3.fromRGB((1131~1138), (336~329), (4093~4067)) IlIIIIlIIIlI_IIllII.Text = (function()local k=131;local b={199,202,208,192,204,209,199};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() do local IIIlIlllIlI_IllIIlIIll=nil end; IlIIIIlIIIlI_IIllII.TextColor3 = Color3.new(1, 1, 1) IlIIIIlIIIlI_IIllII.Font = Enum.Font.GothamBold IlIIIIlIIIlI_IIllII.TextSize = (633~631) IlIIIIlIIIlI_IIllII.TextTransparency = 1 local IlllIlII_IllIIIlllI=math.floor(224); IlIIIIlIIIlI_IIllII.Parent = IllllllIIIlI_IIlI IlIllIlIlIlI_IIIlIIl(IlIIIIlIIIlI_IIllII, Color3.fromRGB((2328~2368), (3152~3125), (3344~3554))) TweenService:Create(IlIIIIlIlIIl_IlIIII, TweenInfo.new(0.5), {TextTransparency = 0}):Play() TweenService:Create(IIIIllIlIllI_IIllll, TweenInfo.new(0.5), {TextTransparency = 0}):Play() local IllIIIIl_IllIIIlIll=(function()return 75+202end)(); TweenService:Create(IlIIIllIIIlI_IIlllI, TweenInfo.new(0.8), {Size = UDim2.new(0.3, 0, 0, 1)}):Play() TweenService:Create(IIIlllIlIIll_IIllIl, TweenInfo.new(0.5), {TextTransparency = 0}):Play() TweenService:Create(IlIIIIlIIIlI_IIllII, TweenInfo.new(0.5), {TextTransparency = 0}):Play() IlIIIIlIIIlI_IIllII.MouseButton1Click:Connect(function() local IllIlIIlll_IllIIIIIlI=math.floor(66); pcall(function() setclipboard(IIIllIllIlII_IlIl) end) IlIIIIlIIIlI_IIllII.Text = (function()local k=195;local b={143,138,141,136,227,128,140,147,138,134,135};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() task.wait(1) IlIIIIlIIIlI_IIllII.Text = (function()local k=56;local b={124,113,107,123,119,106,124};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() local IlllllIl_IlIlllllll=(function()return 56+161end)(); end) IIIlllIlIIll_IIllIl.MouseButton1Click:Connect(function() TweenService:Create(IllllllIIIlI_IIlI, TweenInfo.new(0.6), {BackgroundTransparency = 1}):Play() TweenService:Create(IllIIllIllII_IIll, TweenInfo.new(0.6), {Size = 0}):Play() local IlIIIlIlll_IlIllllIlI=144~138; TweenService:Create(IlIIIIlIlIIl_IlIIII, TweenInfo.new(0.4), {TextTransparency = 1}):Play() TweenService:Create(IIIIllIlIllI_IIllll, TweenInfo.new(0.4), {TextTransparency = 1}):Play() TweenService:Create(IlIIIllIIIlI_IIlllI, TweenInfo.new(0.4), {BackgroundTransparency = 1}):Play() TweenService:Create(IIIlllIlIIll_IIllIl, TweenInfo.new(0.4), {TextTransparency = 1, BackgroundTransparency = 1}):Play() local IIlIlIll_IlIlllIlII=22~56; TweenService:Create(IlIIIIlIIIlI_IIllII, TweenInfo.new(0.4), {TextTransparency = 1, BackgroundTransparency = 1}):Play() task.wait(0.6) IllIIllIllII_IIll:Destroy() IllllllIllll_IlII:Destroy() local IIIllIlll_IlIllIlIll=string.char(94); IIllIIllIlIl_IIIlIII() end) end) end local IIIIllII_IlIllIIlll=(function()return 236+195end)(); local IIIlIlllIIll_IIlIll = Instance.new((function()local k=99;local b={37,17,2,14,6};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIIlIlllIIll_IIlIll.Name = (function()local k=28;local b={94,112,105,110,83,106,121,110,112,125,101};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IIIlIlllIIll_IIlIll.Size = UDim2.new(1, 0, 1, 0) IIIlIlllIIll_IIlIll.BackgroundColor3 = Color3.fromRGB((731~734), (1561~1564), (3614~3611)) local IIllIIlI_IlIlIlllll=string.char(32); IIIlIlllIIll_IIlIll.BackgroundTransparency = 1 IIIlIlllIIll_IIlIll.BorderSizePixel = 0 IIIlIlllIIll_IIlIll.Parent = IIllIIIIllIl_Illl local function IlIllIIIIlll_IIIIlIl(msg, duration) local IIIlIIlII_IlIlIllIll=(function()return 51+16end)(); duration = duration or (2363~2361).5 local IIlIIlIIllII_IIlIlI = Instance.new((function()local k=209;local b={151,163,176,188,180};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIlIIlIIllII_IIlIlI.Size = UDim2.new(0, (328~100), 0, (1734~1771)) IIlIIlIIllII_IIlIlI.Position = UDim2.new(0.5, -(2519~2369), 1, (3170~3190)) local IlIIlIll_IlIlIlIIlI=math.floor(8); IIlIIlIIllII_IIlIlI.BackgroundColor3 = Color3.fromRGB((149~129), (466~454), (2921~2928)) IIlIIlIIllII_IIlIlI.BorderSizePixel = 0 IIlIIlIIllII_IIlIlI.Parent = IIllIIIIllIl_Illl local IIIIlIIIIIIl_IIlIIl = Instance.new((function()local k=116;local b={33,61,55,27,6,26,17,6};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IIlllIIlIlI_IlIlIIllII=math.floor(197); IIIIlIIIIIIl_IIlIIl.CornerRadius = UDim.new(0, (4006~4014)) IIIIlIIIIIIl_IIlIIl.Parent = IIlIIlIIllII_IIlIlI local IllIlIlllIlI_IIlIII = Instance.new((function()local k=30;local b={75,87,77,106,108,113,117,123};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IllIlIlllIlI_IIlIII.Thickness = (138~136) local IIIlllII_IlIlIIlIlI=150~171; IllIlIlllIlI_IIlIII.Color = Color3.fromRGB((888~848), (2264~2288), (1434~1448)) IllIlIlllIlI_IIlIII.Parent = IIlIIlIIllII_IIlIlI local IIlllIlllIIl_IIIlll = Instance.new((function()local k=40;local b={124,77,80,92,100,73,74,77,68};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIlllIlllIIl_IIIlll.Size = UDim2.new(1, -(134~146), 1, 0) local IllIllllIl_IlIlIIIIII=math.floor(138); IIlllIlllIIl_IIIlll.Position = UDim2.new(0, (710~716), 0, 0) IIlllIlllIIl_IIIlll.BackgroundTransparency = 1 IIlllIlllIIl_IIIlll.Text = msg IIlllIlllIIl_IIIlll.TextColor3 = Color3.fromRGB((64~191), (601~678), (1595~1732)) local IIIlIlIIll_IlIIlllIlI=math.floor(169); IIlllIlllIIl_IIIlll.Font = Enum.Font.GothamMedium IIlllIlllIIl_IIIlll.TextSize = (1852~1841) IIlllIlllIIl_IIIlll.TextWrapped = true IIlllIlllIIl_IIIlll.Parent = IIlIIlIIllII_IIlIlI local IIIIIlllI_IlIIllIlll=(function()return 98+1end)(); local IllllllIIllI_IIIllI = TweenService:Create(IIlIIlIIllII_IIlIlI, TweenInfo.new(0.5, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Position = UDim2.new(0.5, -(2804~2658), 0.9, -(1906~1894))}) IllllllIIllI_IIIllI:Play() task.spawn(function() task.wait(duration) if false then local IIlIIIII_IlIIllIIII=62 end; local IlIIIIlIllll_IIIlIl = TweenService:Create(IIlIIlIIllII_IIlIlI, TweenInfo.new(0.5, Enum.EasingStyle.Quart, Enum.EasingDirection.In), {Position = UDim2.new(0.5, -(362~508), 1, (884~838))}) IlIIIIlIllll_IIIlIl:Play() IlIIIIlIllll_IIIlIl.Completed:Wait() IIlIIlIIllII_IIlIlI:Destroy() if false then local IlIIIIllI_IlIIlIlIlI=252 end; end) return IIlIIlIIllII_IIlIlI, IIlllIlllIIl_IIIlll end local function IlIlllIllllI_IIIIlII() local IlllllllIIl_IlIIlIIlIl=(function()return 193+65end)(); local IIlIllIllllI_IIIlII = {Color3.fromRGB((1868~1971), 0, 0), Color3.fromRGB(0, (718~561), 0), Color3.fromRGB(0, 0, (2678~2697)), Color3.fromRGB((802~989), (2638~2737), 0), Color3.fromRGB((1125~1178), 0, (3477~3434))} for i = 1, (2549~2503) do task.spawn(function() local IIIIIlIIIlll_IIIIll = Instance.new((function()local k=53;local b={115,71,84,88,80};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IIIIIIIlIl_IlIIIlllIl=string.char(77); IIIIIlIIIlll_IIIIll.Size = UDim2.new(0, math.random((2506~2511),(4064~4074)), 0, math.random((1342~1339),(1646~1636))) IIIIIlIIIlll_IIIIll.Position = UDim2.new(0.5, math.random(-(1043~1057), (3413~3431)), 0.5, math.random(-(2887~2933), (479~493))) IIIIIlIIIlll_IIIIll.BackgroundColor3 = IIlIllIllllI_IIIlII[math.random(1, #IIlIllIllllI_IIIlII)] IIIIIlIIIlll_IIIIll.BorderSizePixel = 0 local IllIIIllI_IlIIIllIlI=226~76; IIIIIlIIIlll_IIIIll.Parent = IIllIIIIllIl_Illl local IIlIllIlllll_IlIlI = Instance.new((function()local k=184;local b={237,241,251,215,202,214,221,202};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIlIllIlllll_IlIlI.CornerRadius = UDim.new(0, (1148~1150)) IIlIllIlllll_IlIlI.Parent = IIIIIlIIIlll_IIIIll local IIlIIIlIll_IlIIIlIIIl=string.char(81); local IIllIlIlIllI_IIIIlI = math.random(-(1436~1128), (139~383)) local IIllIllIIlIl_IIIIIl = math.random(-(1348~1200), (1717~1857)) local IIlIIIlIllll_IIIIII = math.random(0, (3525~3245)) local t = TweenService:Create(IIIIIlIIIlll_IIIIll, TweenInfo.new(1.5, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), { do local IIIIIIIlIII_IlIIIIlIIl=nil end; Position = UDim2.new(0.5, IIllIlIlIllI_IIIIlI, 0.5, IIllIllIIlIl_IIIIIl), Rotation = IIlIIIlIllll_IIIIII, BackgroundTransparency = 1 }) local IIllIlllII_IlIIIIIlIl=string.char(82); t:Play() t.Completed:Wait() IIIIIlIIIlll_IIIIll:Destroy() end) if false then local IllllllIll_IlIIIIIIII=18 end; end end local IllllIIIIlll_Illllll = Instance.new((function()local k=59;local b={104,88,73,84,87,87,82,85,92,125,73,90,86,94};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IllllIIIIlll_Illllll.Name = (function()local k=216;local b={155,176,185,182,191,189,180,183,191,158,170,185,181,189};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() local IlIlIIIl_IIlllllIll=(function()return 74+65end)(); IllllIIIIlll_Illllll.Size = UDim2.new(0, (3987~3905), 0, (3304~3550)) IllllIIIIlll_Illllll.Position = UDim2.new(0.5, -(2712~2841), 0.5, -(1015~876)) IllllIIIIlll_Illllll.BackgroundColor3 = Color3.fromRGB((3578~3573), (2277~2282), (3927~3907)) IllllIIIIlll_Illllll.BorderSizePixel = 0 local IIIIIllIII_IIllllIlIl=(function()return 98+167end)(); IllllIIIIlll_Illllll.BackgroundTransparency = 1 IllllIIIIlll_Illllll.ScrollBarThickness = 0 IllllIIIIlll_Illllll.CanvasSize = UDim2.new(0, 0, 0, (1492~1192)) IllllIIIIlll_Illllll.Visible = false local IllIlllIII_IIlllIllIl=string.char(39); IllllIIIIlll_Illllll.Parent = IIllIIIIllIl_Illl local IlIlllllIlll_IlllllI = Instance.new((function()local k=91;local b={14,18,23,50,40,47,23,58,34,52,46,47};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IlIlllllIlll_IlllllI.Parent = IllllIIIIlll_Illllll IlIlllllIlll_IlllllI.SortOrder = Enum.SortOrder.LayoutOrder local IIIlIlIlII_IIlllIlIlI=139~148; IlIlllllIlll_IlllllI.Padding = UDim.new(0, (2228~2230)) local IIlIllIllIII_IllllIl = Instance.new((function()local k=47;local b={122,102,127,78,75,75,70,65,72};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIlIllIllIII_IllllIl.Parent = IllllIIIIlll_Illllll IIlIllIllIII_IllllIl.PaddingLeft = UDim.new(0, (2048~2058)) if false then local IIIIlIIlI_IIlllIIIlI=221 end; IIlIllIllIII_IllllIl.PaddingRight = UDim.new(0, (1721~1715)) IIlIllIllIII_IllllIl.PaddingTop = UDim.new(0, (3259~3249)) local IlIllIlllllI_IllllII = Instance.new((function()local k=169;local b={252,224,234,198,219,199,204,219};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IlIllIlllllI_IllllII.CornerRadius = UDim.new(0, (1195~1191)) do local IlIIlIlIll_IIllIllIIl=nil end; IlIllIlllllI_IllllII.Parent = IllllIIIIlll_Illllll local IllllIllIllI_IlllIll = Instance.new((function()local k=109;local b={56,36,62,25,31,2,6,8};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IllllIllIllI_IlllIll.Thickness = (3039~3037) IllllIllIllI_IlllIll.Color = Color3.fromRGB((31~55), (3863~3903), (3328~3378)) do local IIlIllIlIIl_IIllIlIIll=nil end; IllllIllIllI_IlllIll.Transparency = 1 IllllIllIllI_IlllIll.Parent = IllllIIIIlll_Illllll local IIlIllIllllI_IlllIlI = Instance.new((function()local k=138;local b={222,239,242,254,198,235,232,239,230};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIlIllIllllI_IlllIlI.Size = UDim2.new(1, 0, 0, (1637~1660)) local IIlIlIlIIII_IIllIlIIIl=(function()return 200+254end)(); IIlIllIllllI_IlllIlI.BackgroundTransparency = 1 IIlIllIllllI_IlllIlI.Text = (function()local k=101;local b={8263,50,13,28,69,50,0,69,36,1,1,0,1,69,46,0,28,69,54,28,22,17,0,8,90};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IIlIllIllllI_IlllIlI.TextColor3 = Color3.fromRGB((1083~1220), (3281~3118), (499~268)) IIlIllIllllI_IlllIlI.TextSize = (2715~2709) local IIlIIlIIl_IIllIIllII=194~17; IIlIllIllllI_IlllIlI.Font = Enum.Font.GothamBold IIlIllIllllI_IlllIlI.TextXAlignment = Enum.TextXAlignment.Left IIlIllIllllI_IlllIlI.TextTransparency = 1 IIlIllIllllI_IlllIlI.Parent = IllllIIIIlll_Illllll if false then local IllllllIIl_IIllIIIlII=85 end; local IIlIlIIIllll_IlllIIl = Instance.new((function()local k=157;local b={201,248,229,233,209,252,255,248,241};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIlIlIIIllll_IlllIIl.Size = UDim2.new(1, 0, 0, (1716~1587)) IIlIlIIIllll_IlllIIl.BackgroundTransparency = 1 IIlIlIIIllll_IlllIIl.Text = "• We Added Key System To Support Our Current Developers. I know some of you All may be mad because of Key System But It(function()local k=82;local b={33,114,29,60,55,114,5,51,43,114,38,61,114,1,39,34,34,61,32,38,114,6,58,55,114,17,39,32,32,55,60,38,114,22,55,36,55,62,61,34,55,32,33,114,19,60,54,114,16,55,33,59,54,55,33,126,114,6,58,55,114,17,58,55,49,57,34,61,59,60,38,114,27,33,114,29,60,62,43,114,99,114,1,38,55,34,124,114,6,58,55,114,25,55,43,114,59,33,114,19,62,33,61,114,2,55,32,63,51,60,55,60,38,114,27,38};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()s just different Keys for Different Scripts. Also If You want more Better Scripts Just Donate To Our Server Or Boost The server:" if false then local IlllIIIllII_IIlIlllllI=206 end; IIlIlIIIllll_IlllIIl.TextColor3 = Color3.fromRGB((1288~1468), (879~987), (1341~1411)) IIlIlIIIllll_IlllIIl.TextSize = (13~6) IIlIlIIIllll_IlllIIl.Font = Enum.Font.Gotham IIlIlIIIllll_IlllIIl.TextWrapped = true local IIIlIIIlllI_IIlIllIllI=math.floor(140); IIlIlIIIllll_IlllIIl.TextXAlignment = Enum.TextXAlignment.Left IIlIlIIIllll_IlllIIl.TextYAlignment = Enum.TextYAlignment.Top IIlIlIIIllll_IlllIIl.TextTransparency = 1 IIlIlIIIllll_IlllIIl.Parent = IllllIIIIlll_Illllll if false then local IIIIlllll_IIlIllIIlI=75 end; local IlIIlllllIIl_IlllIII = Instance.new((function()local k=104;local b={60,13,16,28,36,9,10,13,4};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IlIIlllllIIl_IlllIII.Size = UDim2.new(1, 0, 0, (424~433)) IlIIlllllIIl_IlllIII.BackgroundTransparency = 1 IlIIlllllIIl_IlllIII.Text = (function()local k=210;local b={8432,153,183,171,242,129,171,161,166,183,191,242,151,170,162,190,179,188,179,166,187,189,188};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() local IIIIlllI_IIlIlIlllI=129~238; IlIIlllllIIl_IlllIII.TextColor3 = Color3.fromRGB((2167~2184), (1580~1747), (2009~1830)) IlIIlllllIIl_IlllIII.TextSize = (3014~3016) IlIIlllllIIl_IlllIII.Font = Enum.Font.GothamBold IlIIlllllIIl_IlllIII.TextXAlignment = Enum.TextXAlignment.Left local IlIIIIlIlIl_IIlIlIlIII=81~132; IlIIlllllIIl_IlllIII.TextTransparency = 1 IlIIlllllIIl_IlllIII.Parent = IllllIIIIlll_Illllll local IIlllIlIlIlI_IllIlll = Instance.new((function()local k=54;local b={98,83,78,66,122,87,84,83,90};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIlllIlIlIlI_IllIlll.Size = UDim2.new(1, 0, 0, (2865~2916)) local IIlIlIllIIl_IIlIIllllI=math.floor(114); IIlllIlIlIlI_IllIlll.BackgroundTransparency = 1 IIlllIlIlIlI_IllIlll.Text = (function()local k=43;local b={8201,11,96,78,82,11,120,74,93,78,88,11,109,68,89,11,100,69,71,82,11,29,11,99,68,94,89,88,11,105,94,95,11,98,77,11,120,68,70,78,68,69,78,11,111,68,69,74,95,78,88,7,11,124,78,11,124,66,71,71,11,104,67,74,69,76,78,11,98,95,11,127,68,11,25,31,11,67,68,94,89,88,5,11,96,78,82,11,120,82,88,95,78,70,11,124,66,71,71,11,105,78,11,120,64,66,91,91,78,79,11,124,67,78,69,11,96,78,82,11,120,74,93,78,88,5,11,120,66,69,72,78,11,111,68,69,74,95,66,69,76,11,120,94,91,91,68,89,95,88,11,68,94,89,11,99,74,89,79,124,68,89,64,66,69,76,11,127,78,74,70,5};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IIlllIlIlIlI_IllIlll.TextColor3 = Color3.fromRGB((1438~1322), (3201~3125), (2591~2721)) IIlllIlIlIlI_IllIlll.TextSize = (1428~1439) local IIlIIIIl_IIlIIllIII=math.floor(127); IIlllIlIlIlI_IllIlll.Font = Enum.Font.Gotham IIlllIlIlIlI_IllIlll.TextWrapped = true IIlllIlIlIlI_IllIlll.TextXAlignment = Enum.TextXAlignment.Left IIlllIlIlIlI_IllIlll.TextYAlignment = Enum.TextYAlignment.Top local IIIIIIllIll_IIlIIlIIlI=math.floor(231); IIlllIlIlIlI_IllIlll.TextTransparency = 1 IIlllIlIlIlI_IllIlll.Parent = IllllIIIIlll_Illllll local IllIlIIIlllI_IllIllI = Instance.new((function()local k=132;local b={194,246,229,233,225};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IllIlIIIlllI_IllIllI.Size = UDim2.new(1, 0, 0, (2333~2307)) local IIIIlllIl_IIlIIIllIl=string.char(81); IllIlIIIlllI_IllIllI.BackgroundTransparency = 1 IllIlIIIlllI_IllIllI.Parent = IllllIIIIlll_Illllll local IIllllllllIl_IllIlIl = Instance.new((function()local k=38;local b={114,67,94,82,100,83,82,82,73,72};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIllllllllIl_IllIlIl.Size = UDim2.new(0, (205~223), 0, (1072~1058)) local IlIIIIIl_IIlIIIlIIl=(function()return 173+173end)(); IIllllllllIl_IllIlIl.Position = UDim2.new(0, 0, 0.5, -(3593~3584)) IIllllllllIl_IllIlIl.BackgroundColor3 = Color3.fromRGB((2981~3003), (3315~3309), (1277~1246)) IIllllllllIl_IllIlIl.BorderSizePixel = 0 IIllllllllIl_IllIlIl.Text = "✓" local IllIlIIlII_IIlIIIIIIl=string.char(108); IIllllllllIl_IllIlIl.TextColor3 = Color3.fromRGB(0, 0, 0) IIllllllllIl_IllIlIl.TextSize = (3925~3931) IIllllllllIl_IllIlIl.Font = Enum.Font.GothamBold IIllllllllIl_IllIlIl.BackgroundTransparency = 1 local IIllIIllIl_IIIllllllI=9~220; IIllllllllIl_IllIlIl.TextTransparency = 1 IIllllllllIl_IllIlIl.Parent = IllIlIIIlllI_IllIllI local IIlIllIlIIII_IllIlII = Instance.new((function()local k=126;local b={43,55,61,17,12,16,27,12};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIlIllIlIIII_IllIlII.CornerRadius = UDim.new(0, (1472~1476)) local IIIlIIllIl_IIIlllIlIl=string.char(99); IIlIllIlIIII_IllIlII.Parent = IIllllllllIl_IllIlIl local IIllllIIlllI_IllIIll = Instance.new((function()local k=100;local b={49,45,55,16,22,11,15,1};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIllllIIlllI_IllIIll.Thickness = 1 IIllllIIlllI_IllIIll.Color = Color3.fromRGB((2491~2439), (344~356), (789~851)) local IlIlIllll_IIIllIllll=string.char(123); IIllllIIlllI_IllIIll.Transparency = 1 IIllllIIlllI_IllIIll.Parent = IIllllllllIl_IllIlIl local IlllIllIllIl_IllIIlI = Instance.new((function()local k=174;local b={250,203,214,218,226,207,204,203,194};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IlllIllIllIl_IllIIlI.Size = UDim2.new(1, -(1523~1514), 1, 0) local IlIIIlIIlII_IIIllIlIIl=string.char(121); IlllIllIllIl_IllIIlI.Position = UDim2.new(0, (2432~2457), 0, 0) IlllIllIllIl_IllIIlI.BackgroundTransparency = 1 IlllIllIllIl_IllIIlI.Text = (function()local k=147;local b={192,242,229,246,179,216,246,234,179,245,252,225,179,165,179,219,252,230,225,224};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IlllIllIllIl_IllIIlI.TextColor3 = Color3.fromRGB((3767~3711), (682~610), (3835~3625)) local IlIIllIl_IIIllIIIlI=math.floor(35); IlllIllIllIl_IllIIlI.TextSize = (3205~3214) IlllIllIllIl_IllIIlI.Font = Enum.Font.GothamMedium IlllIllIllIl_IllIIlI.TextXAlignment = Enum.TextXAlignment.Left IlllIllIllIl_IllIIlI.TextTransparency = 1 local IlIIlIlII_IIIllIIIII=236~77; IlllIllIllIl_IllIIlI.Parent = IllIlIIIlllI_IllIllI local IIllIlIlllII_IllIIIl = Instance.new((function()local k=112;local b={36,21,8,4,50,5,4,4,31,30};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIllIlIlllII_IllIIIl.Size = UDim2.new(1, 0, 0, (589~595)) IIllIlIlllII_IllIIIl.BackgroundTransparency = 1 local IIIlIIIlIll_IIIlIllIlI=63~5; IIllIlIlllII_IllIIIl.Text = (function()local k=31;local b={92,83,86,92,84,63,75,80,63,92,80,79,70,63,91,86,76,92,80,77,91};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IIllIlIlllII_IllIIIl.TextColor3 = Color3.fromRGB((3302~3202), (296~446), (1735~1592)) IIllIlIlllII_IllIIIl.TextSize = (1064~1060) IIllIlIlllII_IllIIIl.Font = Enum.Font.GothamBold if false then local IIllllIlI_IIIlIlIIlI=103 end; IIllIlIlllII_IllIIIl.TextXAlignment = Enum.TextXAlignment.Left IIllIlIlllII_IllIIIl.TextTransparency = 1 IIllIlIlllII_IllIIIl.Parent = IllllIIIIlll_Illllll local IllllllIIIlI_IIlI = Instance.new((function()local k=164;local b={226,214,197,201,193};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IIIIllIIlll_IIIlIIlIlI=math.floor(35); IllllllIIIlI_IIlI.Name = (function()local k=108;local b={33,13,5,2,42,30,13,1,9};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IllllllIIIlI_IIlI.Size = UDim2.new(0, (884~564), 0, (2962~2614)) IllllllIIIlI_IIlI.Position = UDim2.new(0.5, -(1106~1266), 1.2, 0) IllllllIIIlI_IIlI.BackgroundColor3 = Color3.fromRGB((1631~1616), (286~273), (3271~3283)) local IlIIIlllII_IIIlIIIlII=math.floor(231); IllllllIIIlI_IIlI.BorderSizePixel = 0 IllllllIIIlI_IIlI.ClipsDescendants = true IllllllIIIlI_IIlI.Parent = IIllIIIIllIl_Illl local IllIIIllIIIl_IllIIII = Instance.new((function()local k=109;local b={56,36,46,2,31,3,8,31};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IlllllIlll_IIIlIIIIlI=29~4; IllIIIllIIIl_IllIIII.CornerRadius = UDim.new(0, (1631~1615)) IllIIIllIIIl_IllIIII.Parent = IllllllIIIlI_IIlI local IlIlllIIIIlI_IlIllll = Instance.new((function()local k=66;local b={23,11,17,54,48,45,41,39};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IlIlllIIIIlI_IlIllll.Thickness = (288~290) local IIllllIllI_IIIIlllIII=math.floor(240); IlIlllIIIIlI_IlIllll.Color = Color3.fromRGB((3303~3279), (3486~3510), (701~655)) IlIlllIIIIlI_IlIllll.ApplyStrokeMode = Enum.ApplyStrokeMode.Border IlIlllIIIIlI_IlIllll.Parent = IllllllIIIlI_IIlI local IIlIlIlIIllI_IlIlllI = Instance.new((function()local k=191;local b={235,218,199,203,253,202,203,203,208,209};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IIllIlIlII_IIIIllIlIl=(function()return 43+34end)(); IIlIlIlIIllI_IlIlllI.Name = (function()local k=196;local b={135,168,171,183,161,134,177,176,176,171,170};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IIlIlIlIIllI_IlIlllI.Size = UDim2.new(0, (514~540), 0, (387~413)) IIlIlIlIIllI_IlIlllI.Position = UDim2.new(1, -(1860~1897), 0, (115~56)) IIlIlIlIIllI_IlIlllI.BackgroundColor3 = Color3.fromRGB((3049~3069), (1631~1611), (897~920)) local IlIIIlIl_IIIIlIllII=math.floor(221); IIlIlIlIIllI_IlIlllI.Text = "×" IIlIlIlIIllI_IlIlllI.TextColor3 = Color3.fromRGB((91~147), (1434~1362), (2221~2149)) IIlIlIlIIllI_IlIlllI.TextSize = (42~50) IIlIlIlIIllI_IlIlllI.Font = Enum.Font.GothamMedium local IIlllllIllI_IIIIlIIllI=math.floor(175); IIlIlIlIIllI_IlIlllI.BackgroundTransparency = 1 IIlIlIlIIllI_IlIlllI.TextTransparency = 1 IIlIlIlIIllI_IlIlllI.Parent = IllllllIIIlI_IIlI local IIIIllIIlllI_IlIllIl = Instance.new((function()local k=132;local b={209,205,199,235,246,234,225,246};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IIIIllIlII_IIIIlIIlII=106~10; IIIIllIIlllI_IlIllIl.CornerRadius = UDim.new(0, (1314~1322)) IIIIllIIlllI_IlIllIl.Parent = IIlIlIlIIllI_IlIlllI local IllIlIllllII_IlIllII = Instance.new((function()local k=63;local b={106,118,108,75,77,80,84,90};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IllIlIllllII_IlIllII.Thickness = 1 local IllllllII_IIIIIllIlI=math.floor(168); IllIlIllllII_IlIllII.Color = Color3.fromRGB((50~0), (164~150), (1655~1611)) IllIlIllllII_IlIllII.Transparency = 1 IllIlIllllII_IlIllII.Parent = IIlIlIlIIllI_IlIlllI local IIlllIllllll_IlIlIll = Instance.new((function()local k=94;local b={10,59,38,42,28,43,42,42,49,48};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IIIlllIlI_IIIIIlIlII=math.floor(119); IIlllIllllll_IlIlIll.Size = UDim2.new(0, (26~4), 0, (3739~3753)) IIlllIllllll_IlIlIll.Position = UDim2.new(0.5, -(580~652), 1.2, (2057~2237)) IIlllIllllll_IlIlIll.BackgroundColor3 = Color3.fromRGB((3246~3233), (1895~1896), (2189~2201)) IIlllIllllll_IlIlIll.Text = "<" if false then local IlIllIII_IIIIIlIIII=31 end; IIlllIllllll_IlIlIll.TextColor3 = Color3.fromRGB((1554~1754), (2916~2988), (1121~1193)) IIlllIllllll_IlIlIll.TextSize = (495~511) IIlllIllllll_IlIlIll.Font = Enum.Font.GothamBold IIlllIllllll_IlIlIll.BackgroundTransparency = 1 if false then local IIlIllIIll_IIIIIIlIlI=172 end; IIlllIllllll_IlIlIll.TextTransparency = 1 IIlllIllllll_IlIlIll.Parent = IIllIIIIllIl_Illl local IIIIIIIlIIlI_IlIlIlI = Instance.new((function()local k=26;local b={79,83,89,117,104,116,127,104};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIIIIIIlIIlI_IlIlIlI.CornerRadius = UDim.new(0, (735~729)) local IlIllllIlI_IIIIIIIIll=string.char(58); IIIIIIIlIIlI_IlIlIlI.Parent = IIlllIllllll_IlIlIll local IIIlllIIIIll_IlIlIIl = Instance.new((function()local k=49;local b={100,120,98,69,67,94,90,84};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIIlllIIIIll_IlIlIIl.Thickness = (634~632) IIIlllIIIIll_IlIlIIl.Color = Color3.fromRGB((3309~3269), (3136~3176), (1738~1784)) local IllllIlIlll_IllllllllIl=string.char(38); IIIlllIIIIll_IlIlIIl.Transparency = 1 IIIlllIIIIll_IlIlIIl.Parent = IIlllIllllll_IlIlIll local IIIIlIlIIIll_IIII = Instance.new((function()local k=44;local b={120,73,84,88,96,77,78,73,64};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIIIlIlIIIll_IIII.Size = UDim2.new(1, 0, 0, (850~878)) do local IlIllllI_IllllllIlIl=nil end; IIIIlIlIIIll_IIII.Position = UDim2.new(0, 0, 0, (2852~2840)) IIIIlIlIIIll_IIII.BackgroundTransparency = 1 IIIIlIlIIIll_IIII.Text = (function()local k=118;local b={56,57,34,38,55,61,63,86,61,51,47,86,55,53,53,51,37,37};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IIIIlIlIIIll_IIII.TextColor3 = Color3.fromRGB((3422~3489), (2842~3045), (4091~3844)) local IIIIllIlIll_IllllllIIII=math.floor(209); IIIIlIlIIIll_IIII.TextSize = (2018~2036) IIIIlIlIIIll_IIII.Font = Enum.Font.GothamBold IIIIlIlIIIll_IIII.TextTransparency = 1 IIIIlIlIIIll_IIII.Parent = IllllllIIIlI_IIlI local IlIllIllIll_IlllllIlIlI=math.floor(235); local IIlIIIlIllII_IlIlIII = Instance.new((function()local k=185;local b={255,203,216,212,220};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIlIIIlIllII_IlIlIII.Size = UDim2.new(0, (924~664), 0, 1) IIlIIIlIllII_IlIlIII.Position = UDim2.new(0.5, -(963~833), 0, (3899~3912)) IIlIIIlIllII_IlIlIII.BackgroundColor3 = Color3.fromRGB((2541~2513), (3617~3613), (200~142)) local IllIlIlIl_IlllllIIlII=math.floor(13); IIlIIIlIllII_IlIlIII.BackgroundTransparency = 1 IIlIIIlIllII_IlIlIII.Parent = IllllllIIIlI_IIlI local IIIlllIlllIl_IlIIlll = Instance.new((function()local k=32;local b={102,82,65,77,69};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIIlllIlllIl_IlIIlll.Size = UDim2.new(0, (1896~1644), 0, (996~969)) local IllllllIlI_IlllllIIIIl=(function()return 122+155end)(); IIIlllIlllIl_IlIIlll.Position = UDim2.new(0.5, -(4010~3880), 0, (431~313)) IIIlllIlllIl_IlIIlll.BackgroundColor3 = Color3.fromRGB((45~52), (2078~2055), (1788~1762)) IIIlllIlllIl_IlIIlll.BackgroundTransparency = 1 IIIlllIlllIl_IlIIlll.Parent = IllllllIIIlI_IIlI local IllllIllll_IllllIllIIl=string.char(58); local IIlIIllIlllI_IlIIllI = Instance.new((function()local k=209;local b={132,152,146,190,163,191,180,163};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIlIIllIlllI_IlIIllI.CornerRadius = UDim.new(0, (3971~3979)) IIlIIllIlllI_IlIIllI.Parent = IIIlllIlllIl_IlIIlll local IIIIlllllIII_IlIIlIl = Instance.new((function()local k=81;local b={5,52,41,37,19,62,41};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) do local IIIlIlIlI_IllllIlIIIl=nil end; IIIIlllllIII_IlIIlIl.Size = UDim2.new(1, -(1909~1889), 1, 0) IIIIlllllIII_IlIIlIl.Position = UDim2.new(0, (1872~1882), 0, 0) IIIIlllllIII_IlIIlIl.BackgroundTransparency = 1 IIIIlllllIII_IlIIlIl.Text = "" local IIlIlIIIII_IllllIlIIII=5~4; IIIIlllllIII_IlIIlIl.PlaceholderText = (function()local k=144;local b={213,254,228,245,226,176,233,255,229,226,176,251,245,233,190,190,190};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IIIIlllllIII_IlIIlIl.Font = Enum.Font.Gotham IIIIlllllIII_IlIIlIl.TextSize = (2453~2459) IIIIlllllIII_IlIIlIl.TextColor3 = Color3.fromRGB((1126~1177), (3964~3971), (3861~4074)) local IIIlIllllII_IllllIIIlll=string.char(47); IIIIlllllIII_IlIIlIl.PlaceholderColor3 = Color3.fromRGB((1202~1238), (2518~2482), (939~965)) IIIIlllllIII_IlIIlIl.TextTransparency = 1 IIIIlllllIII_IlIIlIl.Parent = IIIlllIlllIl_IlIIlll local IlllIllIIIIl_IlIIlII = Instance.new((function()local k=219;local b={143,190,163,175,153,174,175,175,180,181};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) local IIllIIllIII_IllllIIIIII=math.floor(230); IlllIllIIIIl_IlIIlII.Size = UDim2.new(0, (3169~3429), 0, (1851~1814)) IlllIllIIIIl_IlIIlII.Position = UDim2.new(0.5, -(2653~2783), 0, (2223~2173)) IlllIllIIIIl_IlIIlII.BackgroundColor3 = Color3.fromRGB((1336~1479), (3332~3579), (1138~1165)) IlllIllIIIIl_IlIIlII.Font = Enum.Font.GothamBold local IIIlIIIlIll_IlllIlllllI=181~135; IlllIllIIIIl_IlIIlII.Text = (function()local k=200;local b={158,141,154,129,142,145,232,131,141,145};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IlllIllIIIIl_IlIIlII.TextColor3 = Color3.fromRGB(0, 0, 0) IlllIllIIIIl_IlIIlII.TextSize = (442~436) IlllIllIIIIl_IlIIlII.BackgroundTransparency = 1 if false then local IllllIIl_IlllIllIllI=108 end; IlllIllIIIIl_IlIIlII.TextTransparency = 1 IlllIllIIIIl_IlIIlII.Parent = IllllllIIIlI_IIlI local IlIlIIIIIIlI_IlIIIll = Instance.new((function()local k=22;local b={67,95,85,121,100,120,115,100};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IlIlIIIIIIlI_IlIIIll.CornerRadius = UDim.new(0, (1691~1683)) local IIllIllIIl_IlllIlIlllI=math.floor(28); IlIlIIIIIIlI_IlIIIll.Parent = IlllIllIIIIl_IlIIlII local IIllllIlIIIl_IlIIIlI = Instance.new((function()local k=120;local b={44,29,0,12,58,13,12,12,23,22};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) IIllllIlIIIl_IlIIIlI.Size = UDim2.new(0, (553~813), 0, (4036~4058)) IIllllIlIIIl_IlIIIlI.Position = UDim2.new(0.5, -(2495~2365), 0, (2364~2101)) local IlllIlIl_IlllIlIlIll=(function()return 254+44end)(); IIllllIlIIIl_IlIIIlI.BackgroundTransparency = 1 IIllllIlIIIl_IlIIIlI.Font = Enum.Font.Gotham IIllllIlIIIl_IlIIIlI.Text = "Don't have a key? Click here" IIllllIlIIIl_IlIIIlI.TextColor3 = Color3.fromRGB((1298~1412), (2848~2998), (1932~1836)) local IllIlllI_IlllIlIIllI=109~97; IIllllIlIIIl_IlIIIlI.TextSize = (2286~2274) IIllllIlIIIl_IlIIIlI.TextTransparency = 1 IIllllIlIIIl_IlIIIlI.Parent = IllllllIIIlI_IIlI local IllIIIIllIlI_IlIIIIl = Instance.new((function()local k=34;local b={118,71,90,86,110,67,64,71,78};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) if false then local IlIllllllll_IlllIIllllI=58 end; IllIIIIllIlI_IlIIIIl.Size = UDim2.new(0, (2636~2888), 0, (141~221)) IllIIIIllIlI_IlIIIIl.Position = UDim2.new(0.5, -(2451~2321), 0, (2820~2610)) IllIIIIllIlI_IlIIIIl.BackgroundTransparency = 1 IllIIIIllIlI_IlIIIIl.Text = (function()local k=79;local b={8301,111,28,58,40,40,42,60,59,111,2,32,61,42,111,28,44,61,38,63,59,60,111,6,33,111,11,38,60,44,32,61,43,111,27,32,111,7,42,35,63,111,0,58,61,111,27,42,46,34,111,13,61,46,38,33,60,59,32,61,34,111,6,43,42,46,60,111,14,33,43,111,27,32,111,7,42,35,63,111,22,32,58,111,40,58,54,60,111,24,38,59,39,111,56,39,46,59,111,54,32,58,111,56,46,33,59,110};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() local IIlIllII_IlllIIllIIl=(function()return 16+95end)(); IllIIIIllIlI_IlIIIIl.TextColor3 = Color3.fromRGB((2106~2220), (3910~4048), (1465~1305)) IllIIIIllIlI_IlIIIIl.TextSize = (3942~3947) IllIIIIllIlI_IlIIIIl.Font = Enum.Font.Gotham IllIIIIllIlI_IlIIIIl.TextWrapped = true if false then local IlIIllll_IlllIIlIIlI=95 end; IllIIIIllIlI_IlIIIIl.TextXAlignment = Enum.TextXAlignment.Center IllIIIIllIlI_IlIIIIl.TextTransparency = 1 IllIIIIllIlI_IlIIIIl.Parent = IllllllIIIlI_IIlI local function IIIllIIIlllI_IIIIIll() local IIIllllll_IlllIIIllIl=(function()return 191+148end)(); local IlIIlIllllII_IlIIIII = TweenInfo.new(0.8, Enum.EasingStyle.Quart, Enum.EasingDirection.In) TweenService:Create(IllllllIIIlI_IIlI, IlIIlIllllII_IlIIIII, {Position = UDim2.new(0.5, -(970~874), 1.2, 0)}):Play() TweenService:Create(IIlllIllllll_IlIlIll, IlIIlIllllII_IlIIIII, {Position = UDim2.new(0.5, -(3466~3394), 1.2, (2467~2327))}):Play() TweenService:Create(IllllIIIIlll_Illllll, IlIIlIllllII_IlIIIII, {BackgroundTransparency = 1}):Play() local IlllIllIIlI_IlllIIIIlll=(function()return 28+199end)(); TweenService:Create(IIIlIlllIIll_IIlIll, IlIIlIllllII_IlIIIII, {BackgroundTransparency = 1}):Play() task.wait(0.8) IIllIIIIllIl_Illl:Destroy() end local IIIlIIlI_IlllIIIIIlI=86~177; local function IllIlIIIlIII_IIIIIlI() if writefile then local IIlIIlllIIll_IIlllll = { Expiration = os.time() + IllllllllIII_IIl, local IlllllIlI_IllIllllIll=(function()return 67+221end)(); UserId = IlllIIllIIll_l.UserId } writefile(IIIllIllIlIl_IlI, game:GetService((function()local k=188;local b={244,200,200,204,239,217,206,202,213,223,217};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()):JSONEncode(IIlIIlllIIll_IIlllll)) end do local IlIllIlI_IllIlllIIIl=nil end; end local function IIIIIIIlIIIl_IIIIIIl(seconds) local IlIIllIIlIll_IIllllI = math.floor(seconds / (691~3235)) local IIIlIIllllII_IIlllIl = math.floor((seconds % (2267~1739)) / (491~471)) local IIIlllII_IllIllIllII=math.floor(178); local IllIIllIIlll_IIlllII = math.floor(seconds % (2703~2739)) return string.format((function()local k=151;local b={178,167,165,243,173,178,167,165,243,173,178,167,165,243};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)(), IlIIllIIlIll_IIllllI, IIIlIIllllII_IIlllIl, IllIIllIIlll_IIlllII) end local function IlIIlIIIIllI_IIIIIII() local IIIIllllI_IllIllIIllI=math.floor(22); if isfile and readfile and isfile(IIIllIllIlIl_IlI) then local IIllllIllIIl_IIllIll, IIlIIlllIIll_IIlllll = pcall(function() return game:GetService((function()local k=84;local b={28,32,32,36,7,49,38,34,61,55,49};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()):JSONDecode(readfile(IIIllIllIlIl_IlI)) end) if IIllllIllIIl_IIllIll and IIlIIlllIIll_IIlllll and IIlIIlllIIll_IIlllll.UserId == IlllIIllIIll_l.UserId then if os.time() < IIlIIlllIIll_IIlllll.Expiration then if false then local IlIlIIIlII_IllIllIIIlI=14 end; return IIlIIlllIIll_IIlllll.Expiration - os.time() elseif delfile then delfile(IIIllIllIlIl_IlI) end local IIIlllIII_IllIlIllIll=string.char(84); end end return nil end if false then local IIlIIIIl_IllIlIlIllI=247 end; IIllllllllIl_IllIlIl.MouseButton1Click:Connect(function() IIlIlIIIllll_III = not IIlIlIIIllll_III local IllIllllllII_IIllIlI = IIlIlIIIllll_III and Color3.fromRGB((2150~2201), (3303~3096), (3053~2834)) or Color3.fromRGB((635~613), (2299~2277), (3689~3658)) local IIIIllIlllll_IIllIIl = IIlIlIIIllll_III and 0 or 1 do local IlIlIllll_IllIlIIllIl=nil end; TweenService:Create(IIllllllllIl_IllIlIl, TweenInfo.new(0.2), {BackgroundColor3 = IllIllllllII_IIllIlI}):Play() TweenService:Create(IIllllllllIl_IllIlIl, TweenInfo.new(0.2), {TextTransparency = IIIIllIlllll_IIllIIl}):Play() end) IIllIlIlllII_IllIIIl.MouseButton1Click:Connect(function() local IIllIIIlll_IllIlIIllII=119~199; if setclipboard then setclipboard(IIlllIIlllII_Ill) IlIllIIIIlll_IIIIlIl((function()local k=113;local b={53,24,2,18,30,3,21,81,24,31,7,24,5,20,81,18,30,1,24,20,21,81,5,30,81,18,29,24,1,19,30,16,3,21,80};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) end if false then local IlIlllllII_IllIlIIIlII=40 end; end) IIlIlIlIIllI_IlIlllI.MouseButton1Click:Connect(IIIllIIIlllI_IIIIIll) local IlllIllIlIIl_IIllIII = false IlllIllIIIIl_IlIIlII.MouseButton1Click:Connect(function() local IllIlIIl_IllIIllllIl=string.char(36); if IlllIllIlIIl_IIllIII then return end local IIlIIlIIIlIl_IIlIlll = IIIIlllllIII_IlIIlIl.Text:gsub((function()local k=136;local b={173,251,163};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)(), "") if IIlIIlIIIlIl_IIlIlll == "" then IlIllIIIIlll_IIIIlIl((function()local k=150;local b={198,250,243,247,229,243,182,243,248,226,243,228,182,247,182,253,243,239,182,240,255,228,229,226,183};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) do local IIlIllllIII_IllIIllIlIl=nil end; elseif IIlIIlIIIlIl_IIlIlll == IllIIlIIllII_Il then IlllIllIlIIl_IIllIII = true if IIlIlIIIllll_III then IllIlIIIlIII_IIIIIlI() local IllIIlIIlI_IllIIllIlII=196~112; end IlllIllIIIIl_IlIIlII.Text = (function()local k=59;local b={104,110,120,120,126,104,104};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() IlllIllIIIIl_IlIIlII.BackgroundColor3 = Color3.fromRGB((974~938), (3814~3609), (917~1009)) IlIlllIllllI_IIIIlII() do local IllIIIlIIl_IllIIlIlIIl=nil end; task.wait(1.5) IIIllIIIlllI_IIIIIll() IIllIllIllll_IIIlIlI() else do local Illllllll_IllIIlIIIll=nil end; IlIllIIIIlll_IIIIlIl((function()local k=69;local b={12,43,51,36,41,44,33,101,46,32,60,105,101,53,41,32,36,54,32,101,49,55,60,101,36,34,36,44,43,107};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) end end) local IIIIlIlIllII_IIlIllI = false if false then local IllIIllII_IllIIlIIIII=213 end; IIlllIllllll_IlIlIll.MouseButton1Click:Connect(function() IIIIlIlIllII_IIlIllI = not IIIIlIlIllII_IIlIllI local IIlIIlllllll_IIlIlIl = IIIIlIlIllII_IIlIllI and 0 or 1 IIlllIllllll_IlIlIll.Text = IIIIlIlIllII_IIlIllI and ">" or "<" local IIlIllIl_IllIIIllIII=math.floor(168); if IIIIlIlIllII_IIlIllI then IllllIIIIlll_Illllll.Visible = true end local IlIIIlllIIIl_IIlIlII = { {IllllIIIIlll_Illllll, (function()local k=71;local b={5,38,36,44,32,53,40,50,41,35,19,53,38,41,52,55,38,53,34,41,36,62};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()}, {IllllIllIllI_IlllIll, (function()local k=100;local b={48,22,5,10,23,20,5,22,1,10,7,29};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()}, if false then local IIlllIIl_IllIIIlIlII=170 end; {IIlIllIllllI_IlllIlI, (function()local k=80;local b={4,53,40,36,4,34,49,62,35,32,49,34,53,62,51,41};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()}, {IIlIlIIIllll_IlllIIl, (function()local k=120;local b={44,29,0,12,44,10,25,22,11,8,25,10,29,22,27,1};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()}, {IlIIlllllIIl_IlllIII, (function()local k=208;local b={132,181,168,164,132,162,177,190,163,160,177,162,181,190,179,169};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()}, {IIlllIlIlIlI_IllIlll, (function()local k=135;local b={211,226,255,243,211,245,230,233,244,247,230,245,226,233,228,254};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()}, do local IIIlIllI_IllIIIIlIll=nil end; {IIllllllllIl_IllIlIl, (function()local k=38;local b={100,71,69,77,65,84,73,83,72,66,114,84,71,72,85,86,71,84,67,72,69,95};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()}, {IlllIllIllIl_IllIIlI, (function()local k=168;local b={252,205,208,220,252,218,201,198,219,216,201,218,205,198,203,209};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()}, {IIllllIIlllI_IllIIll, (function()local k=166;local b={242,212,199,200,213,214,199,212,195,200,197,223};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()}, {IIllIlIlllII_IllIIIl, (function()local k=73;local b={29,44,49,61,29,59,40,39,58,57,40,59,44,39,42,48};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()} local IlIIllIlII_IllIIIIlIlI=14~238; } for _, obj in pairs(IlIIIlllIIIl_IIlIlII) do local IlIIlllIIlII_IIlIIll = IIlIIlllllll_IIlIlIl if obj[1] == IIllllllllIl_IllIlIl then local IlIIlIlIIIl_IllIIIIIlII=167~220; if IIIIlIlIllII_IIlIllI then IlIIlllIIlII_IIlIIll = IIlIlIIIllll_III and 0 or 0.5 else IlIIlllIIlII_IIlIIll = 1 do local IlIIlIlI_IlIlllllIIl=nil end; end end TweenService:Create(obj[1], TweenInfo.new(0.4), {[obj[2]] = IlIIlllIIlII_IIlIIll}):Play() end local IlIlIIIII_IlIllllIlll=(function()return 199+241end)(); if IIIIlIlIllII_IIlIllI then local IIllIlllllll_IIlIIlI = IIlIlIIIllll_III and 0 or 1 TweenService:Create(IIllllllllIl_IllIlIl, TweenInfo.new(0.4), {TextTransparency = IIllIlllllll_IIlIIlI}):Play() end local IIIllIll_IlIlllIlllI=math.floor(100); if not IIIIlIlIllII_IIlIllI then task.delay(0.4, function() if not IIIIlIlIllII_IIlIllI then IllllIIIIlll_Illllll.Visible = false end end) end end) local IIIIIlIIl_IlIlllIlIll=(function()return 37+204end)(); local function IllllIlIllll_Illlllll() local IllIIlIllIll_IIlIIIl = IlIIlIIIIllI_IIIIIII() if IllIIlIllIll_IIlIIIl then IllllllIIIlI_IIlI.Visible = false local IlIlIllIl_IlIlllIIIlI=math.floor(132); IIlllIllllll_IlIlIll.Visible = false IIIlIlllIIll_IIlIll.Visible = false IllllIIIIlll_Illllll.Visible = false local IIIIllIlIlII_IIlIIII, IlIlIIlIIlII_IIIllll = IlIllIIIIlll_IIIIlIl((function()local k=174;local b={253,197,199,222,222,203,202,142,229,203,215,128,142};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() .. IIIIIIIlIIIl_IIIIIIl(IllIIlIllIll_IIlIIIl) .. (function()local k=94;local b={126,44,59,51,63,55,48,55,48,57};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)(), (3544~3550)) local IIlIIllII_IlIllIlllll=(function()return 145+46end)(); task.spawn(function() local IIlIlIIIlIll_IIIlllI = os.time() local IIlllllIlIIl_IIIllIl = IIlIlIIIlIll_IIIlllI + IllIIlIllIll_IIlIIIl while os.time() < IIlllllIlIIl_IIIllIl and IIllIIIIllIl_Illl.Parent do local IIIIIlIlI_IlIllIllIIl=(function()return 167+27end)(); IlIlIIlIIlII_IIIllll.Text = (function()local k=190;local b={237,213,215,206,206,219,218,158,245,219,199,144,158};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() .. IIIIIIIlIIIl_IIIIIIl(IIlllllIlIIl_IIIllIl - os.time()) .. (function()local k=163;local b={131,209,198,206,194,202,205,202,205,196};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)() task.wait(1) end end) local IlIllIllI_IlIllIlIlII=158~113; task.delay((382~376).5, function() IIllIIIIllIl_Illl:Destroy() end) IIllIllIllll_IIIlIlI() return end local IIlIlllIII_IlIllIIlIlI=math.floor(165); local IllllIlllIlI_IIIllII = TweenInfo.new(1.2, Enum.EasingStyle.Quart, Enum.EasingDirection.Out) local IlIIIIlllIll_IIIlIll = TweenInfo.new(0.8, Enum.EasingStyle.Quad, Enum.EasingDirection.InOut) TweenService:Create(IIIlIlllIIll_IIlIll, IlIIIIlllIll_IIIlIll, {BackgroundTransparency = 0.3}):Play() TweenService:Create(IllllllIIIlI_IIlI, IllllIlllIlI_IIIllII, {Position = UDim2.new(0.5, -(301~397), 0.5, -(2467~2417))}):Play() local IIllIlIl_IlIllIIIlIl=string.char(72); TweenService:Create(IIlllIllllll_IlIlIll, IllllIlllIlI_IIIllII, {Position = UDim2.new(0.5, -(2032~1848), 0.5, -(258~283))}):Play() task.wait(0.6) TweenService:Create(IIIIlIlIIIll_IIII, IlIIIIlllIll_IIIlIll, {TextTransparency = 0}):Play() TweenService:Create(IIlIIIlIllII_IlIlIII, IlIIIIlllIll_IIIlIll, {BackgroundTransparency = 0}):Play() local IlIIIlIl_IlIllIIIIIl=(function()return 221+213end)(); TweenService:Create(IIlIlIlIIllI_IlIlllI, IlIIIIlllIll_IIIlIll, {BackgroundTransparency = 0, TextTransparency = 0}):Play() TweenService:Create(IllIlIllllII_IlIllII, IlIIIIlllIll_IIIlIll, {Transparency = 0}):Play() TweenService:Create(IIlllIllllll_IlIlIll, IlIIIIlllIll_IIIlIll, {BackgroundTransparency = 0, TextTransparency = 0}):Play() TweenService:Create(IIIlllIIIIll_IlIlIIl, IlIIIIlllIll_IIIlIll, {Transparency = 0}):Play() local IIIlIIIIIl_IlIlIlllIIl=string.char(92); task.wait(0.2) TweenService:Create(IIIlllIlllIl_IlIIlll, IlIIIIlllIll_IIIlIll, {BackgroundTransparency = 0}):Play() TweenService:Create(IIIIlllllIII_IlIIlIl, IlIIIIlllIll_IIIlIll, {TextTransparency = 0}):Play() task.wait(0.2) if false then local IIlllIIIII_IlIlIllIlII=237 end; TweenService:Create(IlllIllIIIIl_IlIIlII, IlIIIIlllIll_IIIlIll, {BackgroundTransparency = 0, TextTransparency = 0}):Play() TweenService:Create(IIllllIlIIIl_IlIIIlI, IlIIIIlllIll_IIIlIll, {TextTransparency = 0}):Play() task.wait(0.1) TweenService:Create(IllIIIIllIlI_IlIIIIl, IlIIIIlllIll_IIIlIll, {TextTransparency = 0}):Play() if false then local IIlIIllIlIl_IlIlIlIlllI=62 end; end IIllllIlIIIl_IlIIIlI.MouseButton1Click:Connect(function() if setclipboard then setclipboard(IlIIlIlllIII_II) do local IIlllIIIl_IlIlIlIIlIl=nil end; IlIllIIIIlll_IIIIlIl((function()local k=49;local b={122,84,72,17,93,88,95,90,17,82,94,65,88,84,85,17,69,94,17,82,93,88,65,83,94,80,67,85,16};local r="";for i=1,#b do r=r..string.char(b[i]~k)end;return r;end)()) end end) IllllIlIllll_Illlllll() do local IIIIllIIIl_IlIlIIlllll=nil end;
+bit32 = {};
+local N = 32;
+local P = 2 ^ N;
+bit32.bnot = function(x)
+	x = x % P;
+	return (P - 1) - x;
+end;
+bit32.band = function(x, y)
+	if (y == 255) then
+		return x % 256;
+	end
+	if (y == 65535) then
+		return x % 65536;
+	end
+	if (y == 4294967295) then
+		return x % 4294967296;
+	end
+	x, y = x % P, y % P;
+	local r = 0;
+	local p = 1;
+	for i = 1, N do
+		local a, b = x % 2, y % 2;
+		x, y = math.floor(x / 2), math.floor(y / 2);
+		if ((a + b) == 2) then
+			r = r + p;
+		end
+		p = 2 * p;
+	end
+	return r;
+end;
+bit32.bor = function(x, y)
+	if (y == 255) then
+		return (x - (x % 256)) + 255;
+	end
+	if (y == 65535) then
+		return (x - (x % 65536)) + 65535;
+	end
+	if (y == 4294967295) then
+		return 4294967295;
+	end
+	x, y = x % P, y % P;
+	local r = 0;
+	local p = 1;
+	for i = 1, N do
+		local a, b = x % 2, y % 2;
+		x, y = math.floor(x / 2), math.floor(y / 2);
+		if ((a + b) >= 1) then
+			r = r + p;
+		end
+		p = 2 * p;
+	end
+	return r;
+end;
+bit32.bxor = function(x, y)
+	x, y = x % P, y % P;
+	local r = 0;
+	local p = 1;
+	for i = 1, N do
+		local a, b = x % 2, y % 2;
+		x, y = math.floor(x / 2), math.floor(y / 2);
+		if ((a + b) == 1) then
+			r = r + p;
+		end
+		p = 2 * p;
+	end
+	return r;
+end;
+bit32.lshift = function(x, s_amount)
+	if (math.abs(s_amount) >= N) then
+		return 0;
+	end
+	x = x % P;
+	if (s_amount < 0) then
+		return math.floor(x * (2 ^ s_amount));
+	else
+		return (x * (2 ^ s_amount)) % P;
+	end
+end;
+bit32.rshift = function(x, s_amount)
+	if (math.abs(s_amount) >= N) then
+		return 0;
+	end
+	x = x % P;
+	if (s_amount > 0) then
+		return math.floor(x * (2 ^ -s_amount));
+	else
+		return (x * (2 ^ -s_amount)) % P;
+	end
+end;
+bit32.arshift = function(x, s_amount)
+	if (math.abs(s_amount) >= N) then
+		return 0;
+	end
+	x = x % P;
+	if (s_amount > 0) then
+		local add = 0;
+		if (x >= (P / 2)) then
+			add = P - (2 ^ (N - s_amount));
+		end
+		return math.floor(x * (2 ^ -s_amount)) + add;
+	else
+		return (x * (2 ^ -s_amount)) % P;
+	end
+end;
+local obf_stringchar = string.char;
+local obf_stringbyte = string.byte;
+local obf_stringsub = string.sub;
+local obf_bitlib = bit32 or bit;
+local obf_XOR = obf_bitlib.bxor;
+local obf_tableconcat = table.concat;
+local obf_tableinsert = table.insert;
+local function LUAOBFUSACTOR_DECRYPT_STR_0(LUAOBFUSACTOR_STR, LUAOBFUSACTOR_KEY)
+	local result = {};
+	for i = 1, #LUAOBFUSACTOR_STR do
+		obf_tableinsert(result, obf_stringchar(obf_XOR(obf_stringbyte(obf_stringsub(LUAOBFUSACTOR_STR, i, i + 1)), obf_stringbyte(obf_stringsub(LUAOBFUSACTOR_KEY, 1 + (i % #LUAOBFUSACTOR_KEY), 1 + (i % #LUAOBFUSACTOR_KEY) + 1))) % 256));
+	end
+	return obf_tableconcat(result);
+end
+local obf_OR = obf_bitlib.bor;
+local obf_AND = obf_bitlib.band;
+local obf_stringmatch = string.match;
+local obf_tonumber = tonumber;
+local obf_pcall = pcall;
+local TweenService = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\229\212\222\32\232\136\194\12\199\202\216\32", "\126\177\163\187\69\134\219\167"));
+local RunService = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\17\216\36\246\249\49\219\35\198\249", "\156\67\173\74\165"));
+local Players = game:GetService(LUAOBFUSACTOR_DECRYPT_STR_0("\4\187\72\15\185\52\85", "\38\84\215\41\118\220\70"));
+local Player = Players['LocalPlayer'];
+local PlayerGui = Player:WaitForChild(LUAOBFUSACTOR_DECRYPT_STR_0("\96\26\35\11\251\66\49\55\27", "\158\48\118\66\114"));
+local CORRECT_KEY = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+local KEY_LINK = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+local DISCORD_LINK = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+local SAVE_FILE_NAME = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+local SAVE_DURATION = 13744 + 7856;
+local saveKeyEnabled = false;
+local ScreenGui = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+ScreenGui['Name'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+ScreenGui['ResetOnSpawn'] = false;
+ScreenGui['IgnoreGuiInset'] = true;
+ScreenGui['Parent'] = PlayerGui;
+local function LoadMainScript()
+	local function obf_wrapperfunc(obf_arg)
+		if obf_arg then
+			local Players = game:GetService(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			local TweenService = game:GetService(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			local RunService = game:GetService(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			local UserInputService = game:GetService(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			local StarterGui = game:GetService(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			local Player = Players['LocalPlayer'];
+			local PlayerGui = Player:WaitForChild(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			local Camera = _G['workspace']['CurrentCamera'];
+			local invite = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+			if _G['CamlockConnection'] then
+				_G['CamlockConnection']:Disconnect();
+			end
+			if game['CoreGui']:FindFirstChild(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])) then
+				game['CoreGui']['CamlockHighlight']:Destroy();
+			end
+			if PlayerGui:FindFirstChild(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])) then
+				PlayerGui['CamlockGui']:Destroy();
+			end
+			local Gui = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			Gui['IgnoreGuiInset'] = true;
+			Gui['ResetOnSpawn'] = false;
+			Gui['Parent'] = PlayerGui;
+			local Blur = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			Blur['Size'] = 0 - 0;
+			Blur['Parent'] = _G['game']['Lighting'];
+			local MainFrame = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			MainFrame['Size'] = UDim2.new(1 + 0, 0 - 0, 1470 - (1269 + 200), 0 - 0);
+			MainFrame['BackgroundColor3'] = Color3.fromRGB(820 - (98 + 717), 831 - (802 + 24), 11 - 4);
+			MainFrame['BackgroundTransparency'] = 1 - 0;
+			MainFrame['Parent'] = Gui;
+			local AccentLine = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			AccentLine['Size'] = UDim2.new(0 + 0, 0 + 0, 0 + 0, 1 + 1);
+			AccentLine['Position'] = UDim2.new(0.5 - 0, 0 - 0, 0.52 + 0, 0 + 0);
+			AccentLine['AnchorPoint'] = Vector2.new(0.5 + 0, 0.5 + 0);
+			AccentLine['BackgroundColor3'] = Color3.fromRGB(0 + 0, 1543 - (797 + 636), 631 - 501);
+			AccentLine['BorderSizePixel'] = 1619 - (1427 + 192);
+			AccentLine['Parent'] = MainFrame;
+			local Title = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			Title['Size'] = UDim2.new(0.8 + 0, 0 - 0, 0 + 0, 23 + 27);
+			Title['Position'] = UDim2.new(326.1 - (192 + 134), 1276 - (316 + 960), 0.53 + 0, 0 + 0);
+			Title['BackgroundTransparency'] = 1 + 0;
+			Title['TextColor3'] = Color3.new(3 - 2, 552 - (83 + 468), 1807 - (1202 + 604));
+			Title['Font'] = Enum['Font']['GothamBold'];
+			Title['TextSize'] = 177 - 139;
+			Title['Text'] = "";
+			Title['Parent'] = MainFrame;
+			local Credits = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			Credits['Size'] = UDim2.new(0.8 - 0, 0 - 0, 325 - (45 + 280), 20 + 0);
+			Credits['Position'] = UDim2.new(0.1 + 0, 0 + 0, 0.64 + 0, 0 + 0);
+			Credits['BackgroundTransparency'] = 1 - 0;
+			Credits['TextColor3'] = Color3.fromRGB(1991 - (340 + 1571), 32 + 48, 1852 - (1733 + 39));
+			Credits['Font'] = Enum['Font']['GothamMedium'];
+			Credits['TextSize'] = 35 - 22;
+			Credits['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+			Credits['TextTransparency'] = 1035 - (125 + 909);
+			Credits['Parent'] = MainFrame;
+			local LoadingContainer = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			LoadingContainer['Size'] = UDim2.new(1948 - (1096 + 852), 158 + 192, 0 - 0, 3 + 0);
+			LoadingContainer['Position'] = UDim2.new(512.5 - (409 + 103), 236 - (46 + 190), 95.35 - (51 + 44), 0 + 0);
+			LoadingContainer['AnchorPoint'] = Vector2.new(1317.5 - (1114 + 203), 726.5 - (228 + 498));
+			LoadingContainer['BackgroundColor3'] = Color3.fromRGB(56 + 199, 141 + 114, 918 - (174 + 489));
+			LoadingContainer['BackgroundTransparency'] = 0.8 - 0;
+			LoadingContainer['BorderSizePixel'] = 1905 - (830 + 1075);
+			LoadingContainer['Parent'] = MainFrame;
+			local LoadingFill = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			LoadingFill['Size'] = UDim2.new(524 - (303 + 221), 1269 - (231 + 1038), 1 + 0, 1162 - (171 + 991));
+			LoadingFill['BackgroundColor3'] = Color3.new(4 - 3, 2 - 1, 2 - 1);
+			LoadingFill['BorderSizePixel'] = 0 + 0;
+			LoadingFill['Parent'] = LoadingContainer;
+			local LoadingTitle = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			LoadingTitle['Size'] = UDim2.new(0 - 0, 576 - 376, 0 - 0, 61 - 41);
+			LoadingTitle['Position'] = UDim2.new(1248.5 - (111 + 1137), 158 - (91 + 67), -(29 - 19), 0 + 0);
+			LoadingTitle['AnchorPoint'] = Vector2.new(523.5 - (423 + 100), 0.5 + 0);
+			LoadingTitle['BackgroundTransparency'] = 2 - 1;
+			LoadingTitle['TextColor3'] = Color3.new(1 + 0, 772 - (326 + 445), 4 - 3);
+			LoadingTitle['Font'] = Enum['Font']['GothamMedium'];
+			LoadingTitle['TextSize'] = 26 - 14;
+			LoadingTitle['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+			LoadingTitle['TextTransparency'] = 2 - 1;
+			LoadingTitle['Parent'] = LoadingContainer;
+			local PercText = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			PercText['Size'] = UDim2.new(711 - (530 + 181), 981 - (614 + 267), 32 - (19 + 13), 32 - 12);
+			PercText['Position'] = UDim2.new(0.5 - 0, 0 - 0, 0 + 0, 20 - 8);
+			PercText['AnchorPoint'] = Vector2.new(0.5 - 0, 1812 - (1293 + 519));
+			PercText['BackgroundTransparency'] = 1 - 0;
+			PercText['TextColor3'] = Color3.new(2 - 1, 1 - 0, 4 - 3);
+			PercText['Font'] = Enum['Font']['GothamBold'];
+			PercText['TextSize'] = 32 - 18;
+			PercText['TextTransparency'] = 1 + 0;
+			PercText['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+			PercText['Parent'] = LoadingContainer;
+			local function styleButton(btn, color)
+				local FlatIdent_92FAC = 0;
+				local corner;
+				while true do
+					if (FlatIdent_92FAC == 0) then
+						corner = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']), btn);
+						corner['CornerRadius'] = UDim.new(0 + 0, 13 - 7);
+						FlatIdent_92FAC = 1;
+					end
+					if (FlatIdent_92FAC == 1) then
+						btn['MouseEnter']:Connect(function()
+							TweenService:Create(btn, TweenInfo.new(0.3 + 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=color,[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=Color3.new(0 + 0, 0 + 0, 1096 - (709 + 387))}):Play();
+						end);
+						btn['MouseLeave']:Connect(function()
+							TweenService:Create(btn, TweenInfo.new(1858.3 - (673 + 1185)), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=Color3.fromRGB(72 - 47, 80 - 55, 49 - 19),[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=Color3.new(1 + 0, 1 + 0, 1 - 0)}):Play();
+						end);
+						break;
+					end
+				end
+			end
+			local function InitCamlock()
+				_G['Keybind'] = "V";
+				_G['LockStrength'] = 2 + 3;
+				_G['Enabled'] = false;
+				local lastInputTime = 0 - 0;
+				StarterGui:SetCore(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']),[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']) .. tostring(_G.Keybind):upper() .. _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']) .. tostring(_G.LockStrength)),[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(9 - 4)});
+				local ScreenGui = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				ScreenGui['Name'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+				ScreenGui['ResetOnSpawn'] = false;
+				ScreenGui['Parent'] = Player:WaitForChild(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				local OuterFrame = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				OuterFrame['Size'] = UDim2.new(1880 - (446 + 1434), 1463 - (1040 + 243), 0 - 0, 1902 - (559 + 1288));
+				OuterFrame['Position'] = UDim2.new(1931.5 - (609 + 1322), -(544 - (13 + 441)), 0.05 - 0, 0 - 0);
+				OuterFrame['BackgroundColor3'] = Color3.fromRGB(1270 - 1015, 10 + 245, 926 - 671);
+				OuterFrame['BorderSizePixel'] = 0 + 0;
+				OuterFrame['Active'] = true;
+				OuterFrame['Parent'] = ScreenGui;
+				local OuterCorner = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				OuterCorner['CornerRadius'] = UDim.new(0.5 + 0, 0 - 0);
+				OuterCorner['Parent'] = OuterFrame;
+				local InnerFrame = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				InnerFrame['Size'] = UDim2.new(0 + 0, 323 - 147, 0 + 0, 29 + 22);
+				InnerFrame['Position'] = UDim2.new(0.5 + 0, -(74 + 14), 0.5 + 0, -(458 - (153 + 280)));
+				InnerFrame['BackgroundColor3'] = Color3.fromRGB(0 - 0, 0 + 0, 0 + 0);
+				InnerFrame['BorderSizePixel'] = 0 + 0;
+				InnerFrame['Parent'] = OuterFrame;
+				local InnerCorner = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				InnerCorner['CornerRadius'] = UDim.new(0.5 + 0, 0 + 0);
+				InnerCorner['Parent'] = InnerFrame;
+				local TitleLabel = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				TitleLabel['Size'] = UDim2.new(1 - 0, 0 + 0, 667.6 - (89 + 578), 0 + 0);
+				TitleLabel['Position'] = UDim2.new(0 - 0, 1049 - (572 + 477), 0.1 + 0, 0 + 0);
+				TitleLabel['BackgroundTransparency'] = 1 + 0;
+				TitleLabel['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+				TitleLabel['TextColor3'] = Color3.fromRGB(341 - (84 + 2), 420 - 165, 184 + 71);
+				TitleLabel['TextSize'] = 856 - (497 + 345);
+				TitleLabel['Font'] = Enum['Font']['GothamBold'];
+				TitleLabel['Parent'] = InnerFrame;
+				local TargetLabel = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				TargetLabel['Size'] = UDim2.new(1 + 0, 0 + 0, 1333.3 - (605 + 728), 0 + 0);
+				TargetLabel['Position'] = UDim2.new(0 - 0, 0 + 0, 0.6 - 0, 0 + 0);
+				TargetLabel['BackgroundTransparency'] = 2 - 1;
+				TargetLabel['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+				TargetLabel['TextColor3'] = Color3.fromRGB(114 + 36, 639 - (457 + 32), 64 + 86);
+				TargetLabel['TextSize'] = 1412 - (832 + 570);
+				TargetLabel['Font'] = Enum['Font']['Gotham'];
+				TargetLabel['Parent'] = InnerFrame;
+				local TargetHighlight = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				TargetHighlight['Name'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+				TargetHighlight['FillTransparency'] = 1 + 0;
+				TargetHighlight['OutlineTransparency'] = 0 + 0;
+				TargetHighlight['OutlineColor'] = Color3.fromRGB(902 - 647, 123 + 132, 1051 - (588 + 208));
+				TargetHighlight['Enabled'] = false;
+				TargetHighlight['Parent'] = _G['game']['CoreGui'];
+				local dragging, dragStart, startPos, startMousePos;
+				local function toggle()
+					local FlatIdent_101D1 = 0;
+					while true do
+						if (0 == FlatIdent_101D1) then
+							_G['Enabled'] = not _G['Enabled'];
+							if _G['Enabled'] then
+								local FlatIdent_5C7CA = 0;
+								while true do
+									if (FlatIdent_5C7CA == 0) then
+										TitleLabel['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+										TitleLabel['TextColor3'] = Color3.fromRGB(0 - 0, 2055 - (884 + 916), 314 - 164);
+										break;
+									end
+								end
+							else
+								local FlatIdent_365F8 = 0;
+								while true do
+									if (FlatIdent_365F8 == 0) then
+										TitleLabel['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+										TitleLabel['TextColor3'] = Color3.fromRGB(148 + 107, 908 - (232 + 421), 2144 - (1569 + 320));
+										FlatIdent_365F8 = 1;
+									end
+									if (FlatIdent_365F8 == 2) then
+										TargetHighlight['Adornee'] = nil;
+										break;
+									end
+									if (FlatIdent_365F8 == 1) then
+										TargetLabel['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+										TargetHighlight['Enabled'] = false;
+										FlatIdent_365F8 = 2;
+									end
+								end
+							end
+							break;
+						end
+					end
+				end
+				OuterFrame['InputBegan']:Connect(function(input)
+					if ((input['UserInputType'] == Enum['UserInputType']['MouseButton1']) or (input['UserInputType'] == Enum['UserInputType']['Touch'])) then
+						local FlatIdent_22DED = 0;
+						while true do
+							if (FlatIdent_22DED == 0) then
+								dragging = true;
+								dragStart = input['Position'];
+								FlatIdent_22DED = 1;
+							end
+							if (FlatIdent_22DED == 2) then
+								input['Changed']:Connect(function()
+									if (input['UserInputState'] ~= Enum['UserInputState']['End']) then
+									else
+										local FlatIdent_583B7 = 0;
+										while true do
+											if (0 == FlatIdent_583B7) then
+												dragging = false;
+												if ((input['Position'] - startMousePos)['Magnitude'] >= (2 + 3)) then
+												else
+													toggle();
+												end
+												break;
+											end
+										end
+									end
+								end);
+								break;
+							end
+							if (FlatIdent_22DED == 1) then
+								startMousePos = input['Position'];
+								startPos = OuterFrame['Position'];
+								FlatIdent_22DED = 2;
+							end
+						end
+					end
+				end);
+				UserInputService['InputChanged']:Connect(function(input)
+					if (dragging and ((input['UserInputType'] == Enum['UserInputType']['MouseMovement']) or (input['UserInputType'] == Enum['UserInputType']['Touch']))) then
+						local FlatIdent_DDF2 = 0;
+						local delta;
+						local targetPos;
+						while true do
+							if (FlatIdent_DDF2 == 0) then
+								delta = input['Position'] - dragStart;
+								targetPos = UDim2.new(startPos['X'].Scale, obf_AND(startPos['X'].Offset, delta.X) + obf_OR(startPos['X'].Offset, delta.X), startPos['Y'].Scale, obf_AND(startPos['Y'].Offset, delta.Y) + obf_OR(startPos['Y'].Offset, delta.Y));
+								FlatIdent_DDF2 = 1;
+							end
+							if (FlatIdent_DDF2 == 1) then
+								TweenService:Create(OuterFrame, TweenInfo.new(0.08 + 0, Enum['EasingStyle'].Quart, Enum['EasingDirection'].Out), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=targetPos}):Play();
+								break;
+							end
+						end
+					end
+				end);
+				local function getNearestTarget()
+					local FlatIdent_39AEA = 0;
+					local nearest;
+					local lastDist;
+					local myRoot;
+					while true do
+						if (FlatIdent_39AEA == 2) then
+							return nearest;
+						end
+						if (FlatIdent_39AEA == 1) then
+							if not myRoot then
+								return nil;
+							end
+							for _, v in pairs(workspace:GetDescendants()) do
+								if (v:IsA(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])) and v:FindFirstChild(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])) and v:FindFirstChild(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']))) then
+									if ((v ~= Player['Character']) and (v['Humanoid']['Health'] > (0 - 0))) then
+										local FlatIdent_23065 = 0;
+										local dist;
+										while true do
+											if (FlatIdent_23065 == 0) then
+												dist = (myRoot['Position'] - v['HumanoidRootPart']['Position'])['Magnitude'];
+												if (dist >= lastDist) then
+												else
+													local FlatIdent_83642 = 0;
+													while true do
+														if (FlatIdent_83642 == 0) then
+															lastDist = dist;
+															nearest = v;
+															break;
+														end
+													end
+												end
+												break;
+											end
+										end
+									end
+								end
+							end
+							FlatIdent_39AEA = 2;
+						end
+						if (FlatIdent_39AEA == 0) then
+							nearest, lastDist = nil, _G['math']['huge'];
+							myRoot = Player['Character'] and Player['Character']:FindFirstChild(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+							FlatIdent_39AEA = 1;
+						end
+					end
+				end
+				_G['CamlockConnection'] = RunService['RenderStepped']:Connect(function()
+					local FlatIdent_54A2D = 0;
+					local currentKey;
+					while true do
+						if (1 == FlatIdent_54A2D) then
+							if _G['Enabled'] then
+								local FlatIdent_52E8 = 0;
+								local target;
+								while true do
+									if (0 == FlatIdent_52E8) then
+										target = getNearestTarget();
+										if target then
+											local FlatIdent_1D2C3 = 0;
+											local root;
+											while true do
+												if (FlatIdent_1D2C3 == 0) then
+													root = target:FindFirstChild(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+													if root then
+														local FlatIdent_BEF0 = 0;
+														local s;
+														local alpha;
+														while true do
+															if (FlatIdent_BEF0 == 2) then
+																TargetHighlight['Adornee'] = target;
+																TargetHighlight['Enabled'] = true;
+																break;
+															end
+															if (FlatIdent_BEF0 == 0) then
+																s = tonumber(_G.LockStrength) or (13 - 8);
+																alpha = _G['math'].clamp(s / (1 + 9), 1453.1 - (666 + 787), 426 - (360 + 65));
+																FlatIdent_BEF0 = 1;
+															end
+															if (FlatIdent_BEF0 == 1) then
+																Camera['CFrame'] = Camera['CFrame']:Lerp(CFrame.new(Camera['CFrame'].Position, root.Position), alpha);
+																TargetLabel['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']) .. target['Name'] .. "]";
+																FlatIdent_BEF0 = 2;
+															end
+														end
+													end
+													break;
+												end
+											end
+										else
+											local FlatIdent_891A = 0;
+											while true do
+												if (FlatIdent_891A == 1) then
+													TargetHighlight['Adornee'] = nil;
+													break;
+												end
+												if (FlatIdent_891A == 0) then
+													TargetLabel['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+													TargetHighlight['Enabled'] = false;
+													FlatIdent_891A = 1;
+												end
+											end
+										end
+										break;
+									end
+								end
+							end
+							break;
+						end
+						if (0 == FlatIdent_54A2D) then
+							currentKey = Enum['KeyCode'][_G['Keybind']:upper()];
+							if UserInputService:IsKeyDown(currentKey) then
+								if ((tick() - lastInputTime) <= (605.3 - (316 + 289))) then
+								else
+									local FlatIdent_646A2 = 0;
+									while true do
+										if (0 == FlatIdent_646A2) then
+											toggle();
+											lastInputTime = _G['tick']();
+											break;
+										end
+									end
+								end
+							end
+							FlatIdent_54A2D = 1;
+						end
+					end
+				end);
+			end
+			task.spawn(function()
+				TweenService:Create(MainFrame, TweenInfo.new(1 + 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(254.1 - (79 + 175))}):Play();
+				TweenService:Create(Blur, TweenInfo.new(1.5 - 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(20 + 5)}):Play();
+				task.wait(0.5 - 0);
+				local message = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+				for i = 1 - 0, #message do
+					local FlatIdent_86D0A = 0;
+					while true do
+						if (FlatIdent_86D0A == 0) then
+							Title['Text'] = string.sub(message, 900 - (503 + 396), i);
+							task.wait(181.04 - (92 + 89));
+							break;
+						end
+					end
+				end
+				TweenService:Create(AccentLine, TweenInfo.new(0.8 - 0, Enum['EasingStyle'].Exponential), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=UDim2.new(0.4 + 0, 0 + 0, 0 - 0, 1 + 1)}):Play();
+				TweenService:Create(Credits, TweenInfo.new(0.8 - 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 + 0)}):Play();
+				task.wait(0.4 + 0);
+				TweenService:Create(LoadingContainer, TweenInfo.new(0.5 - 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0.8 + 0)}):Play();
+				TweenService:Create(LoadingTitle, TweenInfo.new(0.5 - 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1244 - (485 + 759))}):Play();
+				TweenService:Create(PercText, TweenInfo.new(0.5 - 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1189 - (442 + 747))}):Play();
+				local currentPercent = 1135 - (832 + 303);
+				while currentPercent < (1046 - (88 + 858)) do
+					local FlatIdent_60E17 = 0;
+					local jump;
+					while true do
+						if (FlatIdent_60E17 == 1) then
+							TweenService:Create(LoadingFill, TweenInfo.new(789.4 - (766 + 23), Enum['EasingStyle'].Quad), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=UDim2.new(currentPercent / (493 - 393), 0 - 0, 2 - 1, 0 - 0)}):Play();
+							PercText['Text'] = currentPercent .. "%";
+							FlatIdent_60E17 = 2;
+						end
+						if (2 == FlatIdent_60E17) then
+							task.wait(_G['math'].random(1079 - (1036 + 37), 9 + 3) / (19 - 9));
+							break;
+						end
+						if (FlatIdent_60E17 == 0) then
+							jump = _G['math'].random(5 + 10, 29 + 6);
+							currentPercent = _G['math'].min(obf_AND(currentPercent, jump) + obf_OR(currentPercent, jump), 5 + 95);
+							FlatIdent_60E17 = 1;
+						end
+					end
+				end
+				task.wait(0.5 + 0);
+				TweenService:Create(Title, TweenInfo.new(1480.5 - (641 + 839)), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(914 - (910 + 3))}):Play();
+				TweenService:Create(Credits, TweenInfo.new(0.5 - 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1685 - (1466 + 218))}):Play();
+				TweenService:Create(AccentLine, TweenInfo.new(0.5 + 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1149 - (556 + 592))}):Play();
+				TweenService:Create(LoadingContainer, TweenInfo.new(0.5 + 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(809 - (329 + 479))}):Play();
+				TweenService:Create(LoadingFill, TweenInfo.new(854.5 - (174 + 680)), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(3 - 2)}):Play();
+				TweenService:Create(LoadingTitle, TweenInfo.new(0.5 - 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1 + 0)}):Play();
+				TweenService:Create(PercText, TweenInfo.new(739.5 - (396 + 343)), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1 + 0)}):Play();
+				task.wait(1477.6 - (29 + 1448));
+				local Question = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				Question['Size'] = UDim2.new(1389.6 - (135 + 1254), 0 - 0, 0 - 0, 20 + 10);
+				Question['AnchorPoint'] = Vector2.new(1527.5 - (389 + 1138), 574.5 - (102 + 472));
+				Question['Position'] = UDim2.new(0.5 + 0, 0 + 0, 0.44 + 0, 1545 - (320 + 1225));
+				Question['BackgroundTransparency'] = 1 - 0;
+				Question['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+				Question['TextColor3'] = Color3.new(1 + 0, 1465 - (157 + 1307), 1860 - (821 + 1038));
+				Question['Font'] = Enum['Font']['GothamBold'];
+				Question['TextSize'] = 74 - 44;
+				Question['TextTransparency'] = 1 + 0;
+				Question['Parent'] = MainFrame;
+				local SubText = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				SubText['Size'] = UDim2.new(0.6 - 0, 0 + 0, 0 - 0, 1046 - (834 + 192));
+				SubText['AnchorPoint'] = Vector2.new(0.5 + 0, 0.5 + 0);
+				SubText['Position'] = UDim2.new(0.5 + 0, 0 - 0, 304.485 - (300 + 4), 0 + 0);
+				SubText['BackgroundTransparency'] = 2 - 1;
+				SubText['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+				SubText['TextColor3'] = Color3.fromRGB(542 - (112 + 250), 72 + 108, 450 - 270);
+				SubText['Font'] = Enum['Font']['GothamMedium'];
+				SubText['TextSize'] = 8 + 5;
+				SubText['TextTransparency'] = 1 + 0;
+				SubText['Parent'] = MainFrame;
+				local Divider = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				Divider['Size'] = UDim2.new(0 + 0, 0 + 0, 0 + 0, 1415 - (1001 + 413));
+				Divider['Position'] = UDim2.new(0.5 - 0, 882 - (244 + 638), 693.525 - (627 + 66), 0 - 0);
+				Divider['AnchorPoint'] = Vector2.new(602.5 - (512 + 90), 1906.5 - (1665 + 241));
+				Divider['BackgroundColor3'] = Color3.new(718 - (373 + 344), 1 + 0, 1 + 0);
+				Divider['BackgroundTransparency'] = 0.8 - 0;
+				Divider['BorderSizePixel'] = 0 - 0;
+				Divider['Parent'] = MainFrame;
+				local Ok = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				Ok['Size'] = UDim2.new(1099 - (35 + 1064), 110 + 40, 0 - 0, 1 + 41);
+				Ok['Position'] = UDim2.new(1236.5 - (298 + 938), -(1419 - (233 + 1026)), 1666.58 - (636 + 1030), 0 + 0);
+				Ok['BackgroundColor3'] = Color3.fromRGB(25 + 0, 8 + 17, 3 + 27);
+				Ok['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+				Ok['TextColor3'] = Color3.new(222 - (55 + 166), 1 + 0, 1 + 0);
+				Ok['Font'] = Enum['Font']['GothamBold'];
+				Ok['TextSize'] = 53 - 39;
+				Ok['TextTransparency'] = 298 - (36 + 261);
+				Ok['Parent'] = MainFrame;
+				styleButton(Ok, Color3.fromRGB(0 - 0, 1623 - (34 + 1334), 58 + 92));
+				local Discord = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				Discord['Size'] = UDim2.new(0 + 0, 1433 - (1035 + 248), 21 - (20 + 1), 22 + 20);
+				Discord['Position'] = UDim2.new(319.5 - (134 + 185), 1143 - (549 + 584), 685.58 - (314 + 371), 0 - 0);
+				Discord['BackgroundColor3'] = Color3.fromRGB(993 - (478 + 490), 14 + 11, 1202 - (786 + 386));
+				Discord['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+				Discord['TextColor3'] = Color3.new(3 - 2, 1380 - (1055 + 324), 1341 - (1093 + 247));
+				Discord['Font'] = Enum['Font']['GothamBold'];
+				Discord['TextSize'] = 13 + 1;
+				Discord['TextTransparency'] = 1 + 0;
+				Discord['Parent'] = MainFrame;
+				styleButton(Discord, Color3.fromRGB(349 - 261, 342 - 241, 688 - 446));
+				TweenService:Create(Question, TweenInfo.new(0.5 - 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 + 0)}):Play();
+				TweenService:Create(SubText, TweenInfo.new(0.5 - 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 - 0)}):Play();
+				TweenService:Create(Divider, TweenInfo.new(0.8 + 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=UDim2.new(0.3 - 0, 688 - (364 + 324), 0 - 0, 2 - 1)}):Play();
+				TweenService:Create(Ok, TweenInfo.new(0.5 + 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 - 0)}):Play();
+				TweenService:Create(Discord, TweenInfo.new(0.5 - 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 - 0)}):Play();
+				Discord['MouseButton1Click']:Connect(function()
+					local FlatIdent_100BB = 0;
+					while true do
+						if (FlatIdent_100BB == 0) then
+							pcall(function()
+								setclipboard(invite);
+							end);
+							Discord['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+							FlatIdent_100BB = 1;
+						end
+						if (FlatIdent_100BB == 1) then
+							task.wait(1269 - (1249 + 19));
+							Discord['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+							break;
+						end
+					end
+				end);
+				Ok['MouseButton1Click']:Connect(function()
+					local FlatIdent_6D902 = 0;
+					while true do
+						if (FlatIdent_6D902 == 0) then
+							TweenService:Create(MainFrame, TweenInfo.new(0.6 + 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(3 - 2)}):Play();
+							TweenService:Create(Blur, TweenInfo.new(1086.6 - (686 + 400)), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 + 0)}):Play();
+							TweenService:Create(Question, TweenInfo.new(229.4 - (73 + 156)), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1 + 0)}):Play();
+							FlatIdent_6D902 = 1;
+						end
+						if (FlatIdent_6D902 == 2) then
+							TweenService:Create(Discord, TweenInfo.new(0.4 + 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1 + 0),[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1 - 0)}):Play();
+							task.wait(0.6 - 0);
+							Blur:Destroy();
+							FlatIdent_6D902 = 3;
+						end
+						if (3 == FlatIdent_6D902) then
+							Gui:Destroy();
+							InitCamlock();
+							break;
+						end
+						if (FlatIdent_6D902 == 1) then
+							TweenService:Create(SubText, TweenInfo.new(811.4 - (721 + 90)), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1 + 0)}):Play();
+							TweenService:Create(Divider, TweenInfo.new(0.4 - 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(471 - (224 + 246))}):Play();
+							TweenService:Create(Ok, TweenInfo.new(0.4 - 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1 - 0),[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1 + 0)}):Play();
+							FlatIdent_6D902 = 2;
+						end
+					end
+				end);
+			end);
+		else
+			local sdawdwqdq = obf_arg[1];
+		end
+	end
+	if (obf_tonumber(obf_stringmatch(obf_stringmatch(({obf_pcall(obf_wrapperfunc, nil)})[2], ":%d+:"), "%d+")) == 1) then
+		return obf_wrapperfunc({});
+	else
+		return LoadMainScript();
+	end
+end
+local FullBG = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+FullBG['Name'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+FullBG['Size'] = UDim2.new(514 - (203 + 310), 1993 - (1238 + 755), 1 + 0, 1534 - (709 + 825));
+FullBG['BackgroundColor3'] = Color3.fromRGB(8 - 3, 6 - 1, 869 - (196 + 668));
+FullBG['BackgroundTransparency'] = 3 - 2;
+FullBG['BorderSizePixel'] = 0 - 0;
+FullBG['Parent'] = ScreenGui;
+local function CreateNotify(msg, duration)
+	local function obf_wrapperfunc(obf_arg)
+		if obf_arg then
+			local FlatIdent_4A385 = 0;
+			local PopupFrame;
+			local PopupCorner;
+			local PopupStroke;
+			local PopupLabel;
+			local tweenIn;
+			while true do
+				if (3 == FlatIdent_4A385) then
+					PopupStroke['Color'] = Color3.fromRGB(97 - 57, 473 - (114 + 319), 71 - 21);
+					PopupStroke['Parent'] = PopupFrame;
+					PopupLabel = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+					PopupLabel['Size'] = UDim2.new(1 - 0, -(13 + 7), 1 - 0, 0 - 0);
+					FlatIdent_4A385 = 4;
+				end
+				if (FlatIdent_4A385 == 5) then
+					PopupLabel['Font'] = Enum['Font']['GothamMedium'];
+					PopupLabel['TextSize'] = 8 + 5;
+					PopupLabel['TextWrapped'] = true;
+					PopupLabel['Parent'] = PopupFrame;
+					FlatIdent_4A385 = 6;
+				end
+				if (FlatIdent_4A385 == 6) then
+					tweenIn = TweenService:Create(PopupFrame, TweenInfo.new(1230.5 - (957 + 273), Enum['EasingStyle'].Quart, Enum['EasingDirection'].Out), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=UDim2.new(0.5 + 0, -(61 + 89), 0.9 - 0, -(52 - 32))});
+					tweenIn:Play();
+					task.spawn(function()
+						local FlatIdent_33E2D = 0;
+						local tweenOut;
+						while true do
+							if (FlatIdent_33E2D == 0) then
+								task.wait(duration);
+								tweenOut = TweenService:Create(PopupFrame, TweenInfo.new(0.5 - 0, Enum['EasingStyle'].Quart, Enum['EasingDirection'].In), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=UDim2.new(0.5 - 0, -(1930 - (389 + 1391)), 1 + 0, 6 + 44)});
+								FlatIdent_33E2D = 1;
+							end
+							if (FlatIdent_33E2D == 1) then
+								tweenOut:Play();
+								tweenOut['Completed']:Wait();
+								FlatIdent_33E2D = 2;
+							end
+							if (2 == FlatIdent_33E2D) then
+								PopupFrame:Destroy();
+								break;
+							end
+						end
+					end);
+					return PopupFrame, PopupLabel;
+				end
+				if (FlatIdent_4A385 == 1) then
+					PopupFrame['BackgroundColor3'] = Color3.fromRGB(20 + 0, 1534 - (822 + 692), 35 - 10);
+					PopupFrame['BorderSizePixel'] = 0 + 0;
+					PopupFrame['Parent'] = ScreenGui;
+					PopupCorner = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+					FlatIdent_4A385 = 2;
+				end
+				if (FlatIdent_4A385 == 2) then
+					PopupCorner['CornerRadius'] = UDim.new(297 - (45 + 252), 8 + 0);
+					PopupCorner['Parent'] = PopupFrame;
+					PopupStroke = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+					PopupStroke['Thickness'] = 1 + 1;
+					FlatIdent_4A385 = 3;
+				end
+				if (FlatIdent_4A385 == 4) then
+					PopupLabel['Position'] = UDim2.new(1963 - (556 + 1407), 1216 - (741 + 465), 465 - (170 + 295), 0 + 0);
+					PopupLabel['BackgroundTransparency'] = 1 + 0;
+					PopupLabel['Text'] = msg;
+					PopupLabel['TextColor3'] = Color3.fromRGB(627 - 372, 212 + 43, 164 + 91);
+					FlatIdent_4A385 = 5;
+				end
+				if (FlatIdent_4A385 == 0) then
+					duration = duration or (835.5 - (171 + 662));
+					PopupFrame = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+					PopupFrame['Size'] = UDim2.new(93 - (4 + 89), 1051 - 751, 0 + 0, 197 - 152);
+					PopupFrame['Position'] = UDim2.new(0.5 + 0, -(1636 - (35 + 1451)), 1454 - (28 + 1425), 2013 - (941 + 1052));
+					FlatIdent_4A385 = 1;
+				end
+			end
+		else
+			local sdawdwqdq = obf_arg[1];
+		end
+	end
+	if (obf_tonumber(obf_stringmatch(obf_stringmatch(({obf_pcall(obf_wrapperfunc, nil)})[2], ":%d+:"), "%d+")) == 1) then
+		return obf_wrapperfunc({});
+	else
+		return CreateNotify();
+	end
+end
+local function SpawnConfetti()
+	local function obf_wrapperfunc(obf_arg)
+		if obf_arg then
+			local Colors = {Color3.fromRGB(1206 - (783 + 168), 0 - 0, 0 + 0),Color3.fromRGB(0 - 0, 1467 - (1090 + 122), 0 + 0),Color3.fromRGB(0 + 0, 1118 - (628 + 490), 46 + 209),Color3.fromRGB(1165 - 910, 1029 - (431 + 343), 0 - 0),Color3.fromRGB(202 + 53, 0 + 0, 1950 - (556 + 1139))};
+			for i = 16 - (6 + 9), 10 + 40 do
+				task.spawn(function()
+					local FlatIdent_17397 = 0;
+					local p;
+					local corner;
+					local tx;
+					local ty;
+					local tr;
+					local t;
+					while true do
+						if (FlatIdent_17397 == 3) then
+							tx = _G['math'].random(-(887 - (371 + 16)), 2250 - (1326 + 424));
+							ty = _G['math'].random(-(946 - 446), 1827 - 1327);
+							tr = _G['math'].random(118 - (88 + 30), 1131 - (720 + 51));
+							FlatIdent_17397 = 4;
+						end
+						if (4 == FlatIdent_17397) then
+							t = TweenService:Create(p, TweenInfo.new(2.5 - 1, Enum['EasingStyle'].Quart, Enum['EasingDirection'].Out), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=UDim2.new(1776.5 - (421 + 1355), tx, 0.5 - 0, ty),[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=tr,[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1 + 0)});
+							t:Play();
+							t['Completed']:Wait();
+							FlatIdent_17397 = 5;
+						end
+						if (FlatIdent_17397 == 2) then
+							corner = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+							corner['CornerRadius'] = UDim.new(290 - (23 + 267), 1946 - (1129 + 815));
+							corner['Parent'] = p;
+							FlatIdent_17397 = 3;
+						end
+						if (1 == FlatIdent_17397) then
+							p['BackgroundColor3'] = Colors[_G['math'].random(1 + 0, #Colors)];
+							p['BorderSizePixel'] = 0 - 0;
+							p['Parent'] = ScreenGui;
+							FlatIdent_17397 = 2;
+						end
+						if (0 == FlatIdent_17397) then
+							p = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+							p['Size'] = UDim2.new(0 + 0, _G['math'].random(174 - (28 + 141), 4 + 6), 0 - 0, _G['math'].random(4 + 1, 1327 - (486 + 831)));
+							p['Position'] = UDim2.new(0.5 - 0, _G['math'].random(-(176 - 126), 10 + 40), 0.5 - 0, _G['math'].random(-(1313 - (668 + 595)), 45 + 5));
+							FlatIdent_17397 = 1;
+						end
+						if (5 == FlatIdent_17397) then
+							p:Destroy();
+							break;
+						end
+					end
+				end);
+			end
+		else
+			local sdawdwqdq = obf_arg[1];
+		end
+	end
+	if (obf_tonumber(obf_stringmatch(obf_stringmatch(({obf_pcall(obf_wrapperfunc, nil)})[2], ":%d+:"), "%d+")) == 1) then
+		return obf_wrapperfunc({});
+	else
+		return SpawnConfetti();
+	end
+end
+local ChangelogFrame = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+ChangelogFrame['Name'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+ChangelogFrame['Size'] = UDim2.new(1083 - (286 + 797), 767 - 557, 0 - 0, 749 - (397 + 42));
+ChangelogFrame['Position'] = UDim2.new(0.5 + 0, -(1185 - (24 + 776)), 0.5 - 0, -(940 - (222 + 563)));
+ChangelogFrame['BackgroundColor3'] = Color3.fromRGB(33 - 18, 11 + 4, 210 - (23 + 167));
+ChangelogFrame['BorderSizePixel'] = 1798 - (690 + 1108);
+ChangelogFrame['BackgroundTransparency'] = 1 + 0;
+ChangelogFrame['ScrollBarThickness'] = 0 + 0;
+ChangelogFrame['CanvasSize'] = UDim2.new(848 - (40 + 808), 0 + 0, 0 - 0, 364 + 16);
+ChangelogFrame['Visible'] = false;
+ChangelogFrame['Parent'] = ScreenGui;
+local UIListLayout = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+UIListLayout['Parent'] = ChangelogFrame;
+UIListLayout['SortOrder'] = Enum['SortOrder']['LayoutOrder'];
+UIListLayout['Padding'] = UDim.new(0 + 0, 2 + 0);
+local UIPadding = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+UIPadding['Parent'] = ChangelogFrame;
+UIPadding['PaddingLeft'] = UDim.new(571 - (47 + 524), 7 + 3);
+UIPadding['PaddingRight'] = UDim.new(0 - 0, 14 - 4);
+UIPadding['PaddingTop'] = UDim.new(0 - 0, 1736 - (1165 + 561));
+local CL_Corner = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+CL_Corner['CornerRadius'] = UDim.new(0 + 0, 37 - 25);
+CL_Corner['Parent'] = ChangelogFrame;
+local CL_Stroke = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+CL_Stroke['Thickness'] = 1 + 1;
+CL_Stroke['Color'] = Color3.fromRGB(519 - (341 + 138), 11 + 29, 103 - 53);
+CL_Stroke['Transparency'] = 327 - (89 + 237);
+CL_Stroke['Parent'] = ChangelogFrame;
+local CL_Title = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+CL_Title['Size'] = UDim2.new(3 - 2, 0 - 0, 881 - (581 + 300), 1245 - (855 + 365));
+CL_Title['BackgroundTransparency'] = 2 - 1;
+CL_Title['Text'] = "•Why We Added Key System?";
+CL_Title['TextColor3'] = Color3.fromRGB(84 + 171, 1490 - (1030 + 205), 240 + 15);
+CL_Title['TextSize'] = 14 + 0;
+CL_Title['Font'] = Enum['Font']['GothamBold'];
+CL_Title['TextXAlignment'] = Enum['TextXAlignment']['Left'];
+CL_Title['TextTransparency'] = 287 - (156 + 130);
+CL_Title['Parent'] = ChangelogFrame;
+local DescLabel = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+DescLabel['Size'] = UDim2.new(2 - 1, 0 - 0, 0 - 0, 36 + 99);
+DescLabel['BackgroundTransparency'] = 1 + 0;
+DescLabel['Text'] = "• We Added Key System To Support Our Current Developers. I know some of you All may be mad because of Key System But It's One Way to Support The Current Developers And Besides, The Checkpoint Is Only 1 Step. The Key is Also Permanent It's just different Keys for Different Scripts. Also If You want more Better Scripts Just Donate To Our Server Or Boost The server:";
+DescLabel['TextColor3'] = Color3.fromRGB(249 - (10 + 59), 51 + 129, 935 - 745);
+DescLabel['TextSize'] = 1174 - (671 + 492);
+DescLabel['Font'] = Enum['Font']['Gotham'];
+DescLabel['TextWrapped'] = true;
+DescLabel['TextXAlignment'] = Enum['TextXAlignment']['Left'];
+DescLabel['TextYAlignment'] = Enum['TextYAlignment']['Top'];
+DescLabel['TextTransparency'] = 1 + 0;
+DescLabel['Parent'] = ChangelogFrame;
+local FuncTitle = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+FuncTitle['Size'] = UDim2.new(1216 - (369 + 846), 0 + 0, 0 + 0, 1970 - (1036 + 909));
+FuncTitle['BackgroundTransparency'] = 1 + 0;
+FuncTitle['Text'] = "•Key System Explanation";
+FuncTitle['TextColor3'] = Color3.fromRGB(428 - 173, 458 - (11 + 192), 129 + 126);
+FuncTitle['TextSize'] = 189 - (135 + 40);
+FuncTitle['Font'] = Enum['Font']['GothamBold'];
+FuncTitle['TextXAlignment'] = Enum['TextXAlignment']['Left'];
+FuncTitle['TextTransparency'] = 2 - 1;
+FuncTitle['Parent'] = ChangelogFrame;
+local FuncDesc = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+FuncDesc['Size'] = UDim2.new(1 + 0, 0 - 0, 0 - 0, 261 - (50 + 126));
+FuncDesc['BackgroundTransparency'] = 2 - 1;
+FuncDesc['Text'] = "• Key Saves For Only 6 Hours But If Someone Donates, We Will Change It To 24 hours. Key System Will Be Skipped When Key Saves. Since Donating Supports our HardWorking Team.";
+FuncDesc['TextColor3'] = Color3.fromRGB(40 + 140, 1593 - (1233 + 180), 1159 - (522 + 447));
+FuncDesc['TextSize'] = 1432 - (107 + 1314);
+FuncDesc['Font'] = Enum['Font']['Gotham'];
+FuncDesc['TextWrapped'] = true;
+FuncDesc['TextXAlignment'] = Enum['TextXAlignment']['Left'];
+FuncDesc['TextYAlignment'] = Enum['TextYAlignment']['Top'];
+FuncDesc['TextTransparency'] = 1 + 0;
+FuncDesc['Parent'] = ChangelogFrame;
+local SaveToggleFrame = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+SaveToggleFrame['Size'] = UDim2.new(2 - 1, 0 + 0, 0 - 0, 118 - 88);
+SaveToggleFrame['BackgroundTransparency'] = 1911 - (716 + 1194);
+SaveToggleFrame['Parent'] = ChangelogFrame;
+local SaveToggleBtn = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+SaveToggleBtn['Size'] = UDim2.new(0 + 0, 2 + 16, 503 - (74 + 429), 34 - 16);
+SaveToggleBtn['Position'] = UDim2.new(0 + 0, 0 - 0, 0.5 + 0, -(27 - 18));
+SaveToggleBtn['BackgroundColor3'] = Color3.fromRGB(74 - 44, 463 - (279 + 154), 813 - (454 + 324));
+SaveToggleBtn['BorderSizePixel'] = 0 + 0;
+SaveToggleBtn['Text'] = "✓";
+SaveToggleBtn['TextColor3'] = Color3.fromRGB(17 - (12 + 5), 0 + 0, 0 - 0);
+SaveToggleBtn['TextSize'] = 6 + 8;
+SaveToggleBtn['Font'] = Enum['Font']['GothamBold'];
+SaveToggleBtn['BackgroundTransparency'] = 1094 - (277 + 816);
+SaveToggleBtn['TextTransparency'] = 4 - 3;
+SaveToggleBtn['Parent'] = SaveToggleFrame;
+local SaveToggleCorner = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+SaveToggleCorner['CornerRadius'] = UDim.new(1183 - (1058 + 125), 1 + 3);
+SaveToggleCorner['Parent'] = SaveToggleBtn;
+local SaveToggleStroke = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+SaveToggleStroke['Thickness'] = 976 - (815 + 160);
+SaveToggleStroke['Color'] = Color3.fromRGB(257 - 197, 142 - 82, 17 + 53);
+SaveToggleStroke['Transparency'] = 2 - 1;
+SaveToggleStroke['Parent'] = SaveToggleBtn;
+local SaveToggleLabel = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+SaveToggleLabel['Size'] = UDim2.new(1899 - (41 + 1857), -(1918 - (1222 + 671)), 2 - 1, 0 - 0);
+SaveToggleLabel['Position'] = UDim2.new(1182 - (229 + 953), 1799 - (1111 + 663), 1579 - (874 + 705), 0 + 0);
+SaveToggleLabel['BackgroundTransparency'] = 1 + 0;
+SaveToggleLabel['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+SaveToggleLabel['TextColor3'] = Color3.fromRGB(415 - 215, 6 + 194, 889 - (642 + 37));
+SaveToggleLabel['TextSize'] = 3 + 8;
+SaveToggleLabel['Font'] = Enum['Font']['GothamMedium'];
+SaveToggleLabel['TextXAlignment'] = Enum['TextXAlignment']['Left'];
+SaveToggleLabel['TextTransparency'] = 1 + 0;
+SaveToggleLabel['Parent'] = SaveToggleFrame;
+local DiscordBtn = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+DiscordBtn['Size'] = UDim2.new(2 - 1, 454 - (233 + 221), 0 - 0, 27 + 3);
+DiscordBtn['BackgroundTransparency'] = 1542 - (718 + 823);
+DiscordBtn['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+DiscordBtn['TextColor3'] = Color3.fromRGB(63 + 37, 955 - (266 + 539), 721 - 466);
+DiscordBtn['TextSize'] = 1237 - (636 + 589);
+DiscordBtn['Font'] = Enum['Font']['GothamBold'];
+DiscordBtn['TextXAlignment'] = Enum['TextXAlignment']['Left'];
+DiscordBtn['TextTransparency'] = 2 - 1;
+DiscordBtn['Parent'] = ChangelogFrame;
+local MainFrame = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+MainFrame['Name'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+MainFrame['Size'] = UDim2.new(0 - 0, 254 + 66, 0 + 0, 1435 - (657 + 358));
+MainFrame['Position'] = UDim2.new(0.5 - 0, -(364 - 204), 1188.2 - (1151 + 36), 0 + 0);
+MainFrame['BackgroundColor3'] = Color3.fromRGB(4 + 11, 44 - 29, 1852 - (1552 + 280));
+MainFrame['BorderSizePixel'] = 834 - (64 + 770);
+MainFrame['ClipsDescendants'] = true;
+MainFrame['Parent'] = ScreenGui;
+local MainCorner = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+MainCorner['CornerRadius'] = UDim.new(0 + 0, 36 - 20);
+MainCorner['Parent'] = MainFrame;
+local MainStroke = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+MainStroke['Thickness'] = 1 + 1;
+MainStroke['Color'] = Color3.fromRGB(1283 - (157 + 1086), 80 - 40, 218 - 168);
+MainStroke['ApplyStrokeMode'] = Enum['ApplyStrokeMode']['Border'];
+MainStroke['Parent'] = MainFrame;
+local CloseBtn = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+CloseBtn['Name'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+CloseBtn['Size'] = UDim2.new(0 - 0, 40 - 10, 819 - (599 + 220), 59 - 29);
+CloseBtn['Position'] = UDim2.new(1932 - (1813 + 118), -(33 + 12), 1217 - (841 + 376), 104 - 29);
+CloseBtn['BackgroundColor3'] = Color3.fromRGB(5 + 15, 54 - 34, 884 - (464 + 395));
+CloseBtn['Text'] = "×";
+CloseBtn['TextColor3'] = Color3.fromRGB(513 - 313, 97 + 103, 1037 - (467 + 370));
+CloseBtn['TextSize'] = 49 - 25;
+CloseBtn['Font'] = Enum['Font']['GothamMedium'];
+CloseBtn['BackgroundTransparency'] = 1 + 0;
+CloseBtn['TextTransparency'] = 3 - 2;
+CloseBtn['Parent'] = MainFrame;
+local CloseCorner = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+CloseCorner['CornerRadius'] = UDim.new(0 + 0, 18 - 10);
+CloseCorner['Parent'] = CloseBtn;
+local CloseStroke = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+CloseStroke['Thickness'] = 521 - (150 + 370);
+CloseStroke['Color'] = Color3.fromRGB(1332 - (74 + 1208), 122 - 72, 284 - 224);
+CloseStroke['Transparency'] = 1 + 0;
+CloseStroke['Parent'] = CloseBtn;
+local ToggleCL = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+ToggleCL['Size'] = UDim2.new(390 - (14 + 376), 52 - 22, 0 + 0, 44 + 6);
+ToggleCL['Position'] = UDim2.new(0.5 + 0, -(586 - 386), 1.2 + 0, 258 - (23 + 55));
+ToggleCL['BackgroundColor3'] = Color3.fromRGB(35 - 20, 11 + 4, 18 + 2);
+ToggleCL['Text'] = "<";
+ToggleCL['TextColor3'] = Color3.fromRGB(310 - 110, 63 + 137, 1101 - (652 + 249));
+ToggleCL['TextSize'] = 42 - 26;
+ToggleCL['Font'] = Enum['Font']['GothamBold'];
+ToggleCL['BackgroundTransparency'] = 1869 - (708 + 1160);
+ToggleCL['TextTransparency'] = 2 - 1;
+ToggleCL['Parent'] = ScreenGui;
+local ToggleCorner = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+ToggleCorner['CornerRadius'] = UDim.new(0 - 0, 33 - (10 + 17));
+ToggleCorner['Parent'] = ToggleCL;
+local ToggleStroke = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+ToggleStroke['Thickness'] = 1 + 1;
+ToggleStroke['Color'] = Color3.fromRGB(1772 - (1400 + 332), 76 - 36, 1958 - (242 + 1666));
+ToggleStroke['Transparency'] = 1 + 0;
+ToggleStroke['Parent'] = ToggleCL;
+local Title = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+Title['Size'] = UDim2.new(1 + 0, 0 + 0, 940 - (850 + 90), 105 - 45);
+Title['Position'] = UDim2.new(1390 - (360 + 1030), 0 + 0, 0 - 0, 82 - 22);
+Title['BackgroundTransparency'] = 1662 - (909 + 752);
+Title['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+Title['TextColor3'] = Color3.fromRGB(1478 - (109 + 1114), 466 - 211, 100 + 155);
+Title['TextSize'] = 264 - (6 + 236);
+Title['Font'] = Enum['Font']['GothamBold'];
+Title['TextTransparency'] = 1 + 0;
+Title['Parent'] = MainFrame;
+local GreyUnderline = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+GreyUnderline['Size'] = UDim2.new(0 + 0, 613 - 353, 0 - 0, 1134 - (1076 + 57));
+GreyUnderline['Position'] = UDim2.new(0.5 + 0, -(819 - (579 + 110)), 0 + 0, 102 + 13);
+GreyUnderline['BackgroundColor3'] = Color3.fromRGB(32 + 28, 467 - (174 + 233), 195 - 125);
+GreyUnderline['BackgroundTransparency'] = 1 - 0;
+GreyUnderline['Parent'] = MainFrame;
+local InputContainer = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+InputContainer['Size'] = UDim2.new(0 + 0, 1434 - (663 + 511), 0 + 0, 10 + 35);
+InputContainer['Position'] = UDim2.new(0.5 - 0, -(79 + 51), 0 - 0, 363 - 213);
+InputContainer['BackgroundColor3'] = Color3.fromRGB(12 + 13, 48 - 23, 22 + 8);
+InputContainer['BackgroundTransparency'] = 1 + 0;
+InputContainer['Parent'] = MainFrame;
+local InputCorner = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+InputCorner['CornerRadius'] = UDim.new(722 - (478 + 244), 525 - (440 + 77));
+InputCorner['Parent'] = InputContainer;
+local TextBox = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+TextBox['Size'] = UDim2.new(1 + 0, -(73 - 53), 1557 - (655 + 901), 0 + 0);
+TextBox['Position'] = UDim2.new(0 + 0, 7 + 3, 0 - 0, 1445 - (695 + 750));
+TextBox['BackgroundTransparency'] = 3 - 2;
+TextBox['Text'] = "";
+TextBox['PlaceholderText'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+TextBox['Font'] = Enum['Font']['Gotham'];
+TextBox['TextSize'] = 21 - 7;
+TextBox['TextColor3'] = Color3.fromRGB(1025 - 770, 606 - (285 + 66), 594 - 339);
+TextBox['PlaceholderColor3'] = Color3.fromRGB(1410 - (682 + 628), 17 + 83, 409 - (176 + 123));
+TextBox['TextTransparency'] = 1 + 0;
+TextBox['Parent'] = InputContainer;
+local VerifyBtn = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+VerifyBtn['Size'] = UDim2.new(0 + 0, 529 - (239 + 30), 0 + 0, 44 + 1);
+VerifyBtn['Position'] = UDim2.new(0.5 - 0, -(405 - 275), 315 - (306 + 9), 732 - 522);
+VerifyBtn['BackgroundColor3'] = Color3.fromRGB(45 + 210, 157 + 98, 123 + 132);
+VerifyBtn['Font'] = Enum['Font']['GothamBold'];
+VerifyBtn['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+VerifyBtn['TextColor3'] = Color3.fromRGB(0 - 0, 1375 - (1140 + 235), 0 + 0);
+VerifyBtn['TextSize'] = 13 + 1;
+VerifyBtn['BackgroundTransparency'] = 1 + 0;
+VerifyBtn['TextTransparency'] = 53 - (33 + 19);
+VerifyBtn['Parent'] = MainFrame;
+local BtnCorner = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+BtnCorner['CornerRadius'] = UDim.new(0 + 0, 23 - 15);
+BtnCorner['Parent'] = VerifyBtn;
+local GetKeyBtn = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+GetKeyBtn['Size'] = UDim2.new(0 + 0, 509 - 249, 0 + 0, 719 - (586 + 103));
+GetKeyBtn['Position'] = UDim2.new(0.5 + 0, -(400 - 270), 1488 - (1309 + 179), 478 - 213);
+GetKeyBtn['BackgroundTransparency'] = 1 + 0;
+GetKeyBtn['Font'] = Enum['Font']['Gotham'];
+GetKeyBtn['Text'] = "Don't have a key? Click here";
+GetKeyBtn['TextColor3'] = Color3.fromRGB(402 - 252, 114 + 36, 339 - 179);
+GetKeyBtn['TextSize'] = 23 - 11;
+GetKeyBtn['TextTransparency'] = 610 - (295 + 314);
+GetKeyBtn['Parent'] = MainFrame;
+local MainSuggestion = Instance.new(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+MainSuggestion['Size'] = UDim2.new(0 - 0, 2222 - (1300 + 662), 0 - 0, 1835 - (1178 + 577));
+MainSuggestion['Position'] = UDim2.new(0.5 + 0, -(384 - 254), 1405 - (851 + 554), 275 + 35);
+MainSuggestion['BackgroundTransparency'] = 2 - 1;
+MainSuggestion['Text'] = "• Suggest More Scripts In Discord To Help Our Team Brainstorm Ideas And To Help You guys With what you want!";
+MainSuggestion['TextColor3'] = Color3.fromRGB(325 - 175, 452 - (115 + 187), 123 + 37);
+MainSuggestion['TextSize'] = 13 + 0;
+MainSuggestion['Font'] = Enum['Font']['Gotham'];
+MainSuggestion['TextWrapped'] = true;
+MainSuggestion['TextXAlignment'] = Enum['TextXAlignment']['Center'];
+MainSuggestion['TextTransparency'] = 3 - 2;
+MainSuggestion['Parent'] = MainFrame;
+local function CloseUI()
+	local function obf_wrapperfunc(obf_arg)
+		if obf_arg then
+			local FlatIdent_31826 = 0;
+			local exitInfo;
+			while true do
+				if (FlatIdent_31826 == 2) then
+					TweenService:Create(FullBG, exitInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1 + 0)}):Play();
+					task.wait(0.8 - 0);
+					FlatIdent_31826 = 3;
+				end
+				if (FlatIdent_31826 == 1) then
+					TweenService:Create(ToggleCL, exitInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=UDim2.new(897.5 - (525 + 372), -(379 - 179), 3.2 - 2, 322 - (96 + 46))}):Play();
+					TweenService:Create(ChangelogFrame, exitInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(778 - (643 + 134))}):Play();
+					FlatIdent_31826 = 2;
+				end
+				if (FlatIdent_31826 == 3) then
+					ScreenGui:Destroy();
+					break;
+				end
+				if (FlatIdent_31826 == 0) then
+					exitInfo = TweenInfo.new(1161.8 - (160 + 1001), Enum['EasingStyle'].Quart, Enum['EasingDirection'].In);
+					TweenService:Create(MainFrame, exitInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=UDim2.new(0.5 + 0, -(111 + 49), 1.2 - 0, 358 - (237 + 121))}):Play();
+					FlatIdent_31826 = 1;
+				end
+			end
+		else
+			local sdawdwqdq = obf_arg[1];
+		end
+	end
+	if (obf_tonumber(obf_stringmatch(obf_stringmatch(({obf_pcall(obf_wrapperfunc, nil)})[2], ":%d+:"), "%d+")) == 1) then
+		return obf_wrapperfunc({});
+	else
+		return CloseUI();
+	end
+end
+local function SaveKeyData()
+	local function obf_wrapperfunc(obf_arg)
+		if obf_arg then
+			if writefile then
+				local FlatIdent_4ADD9 = 0;
+				local data;
+				while true do
+					if (FlatIdent_4ADD9 == 0) then
+						data = {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(obf_AND(os.time(), SAVE_DURATION) + obf_OR(os.time(), SAVE_DURATION)),[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=Player['UserId']};
+						writefile(SAVE_FILE_NAME, _G['game']:GetService(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])):JSONEncode(data));
+						break;
+					end
+				end
+			end
+		else
+			local sdawdwqdq = obf_arg[1];
+		end
+	end
+	if (obf_tonumber(obf_stringmatch(obf_stringmatch(({obf_pcall(obf_wrapperfunc, nil)})[2], ":%d+:"), "%d+")) == 1) then
+		return obf_wrapperfunc({});
+	else
+		return SaveKeyData();
+	end
+end
+local function FormatTimeLeft(seconds)
+	local function obf_wrapperfunc(obf_arg)
+		if obf_arg then
+			local FlatIdent_792E7 = 0;
+			local hours;
+			local mins;
+			local secs;
+			while true do
+				if (FlatIdent_792E7 == 0) then
+					hours = _G['math'].floor(seconds / (13365 - 9765));
+					mins = _G['math'].floor((seconds % (3453 + 147)) / (117 - 57));
+					FlatIdent_792E7 = 1;
+				end
+				if (FlatIdent_792E7 == 1) then
+					secs = _G['math'].floor(seconds % (122 - 62));
+					return string.format(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']), hours, mins, secs);
+				end
+			end
+		else
+			local sdawdwqdq = obf_arg[1];
+		end
+	end
+	if (obf_tonumber(obf_stringmatch(obf_stringmatch(({obf_pcall(obf_wrapperfunc, nil)})[2], ":%d+:"), "%d+")) == 1) then
+		return obf_wrapperfunc({});
+	else
+		return FormatTimeLeft();
+	end
+end
+local function CheckSavedKey()
+	local function obf_wrapperfunc(obf_arg)
+		if obf_arg then
+			local FlatIdent_C761 = 0;
+			while true do
+				if (FlatIdent_C761 == 0) then
+					if (isfile and readfile and isfile(SAVE_FILE_NAME)) then
+						local FlatIdent_6BDCA = 0;
+						local success;
+						local data;
+						while true do
+							if (FlatIdent_6BDCA == 0) then
+								success, data = _G['pcall'](function()
+									return _G['game']:GetService(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])):JSONDecode(readfile(SAVE_FILE_NAME));
+								end);
+								if (success and data and (data['UserId'] == Player['UserId'])) then
+									if (os.time() < data['Expiration']) then
+										return data['Expiration'] - os.time();
+									elseif delfile then
+										delfile(SAVE_FILE_NAME);
+									end
+								end
+								break;
+							end
+						end
+					end
+					return nil;
+				end
+			end
+		else
+			local sdawdwqdq = obf_arg[1];
+		end
+	end
+	if (obf_tonumber(obf_stringmatch(obf_stringmatch(({obf_pcall(obf_wrapperfunc, nil)})[2], ":%d+:"), "%d+")) == 1) then
+		return obf_wrapperfunc({});
+	else
+		return CheckSavedKey();
+	end
+end
+SaveToggleBtn['MouseButton1Click']:Connect(function()
+	local FlatIdent_3B073 = 0;
+	local targetBG;
+	local targetText;
+	while true do
+		if (FlatIdent_3B073 == 0) then
+			saveKeyEnabled = not saveKeyEnabled;
+			targetBG = (saveKeyEnabled and Color3.fromRGB(974 - (316 + 403), 170 + 85, 701 - 446)) or Color3.fromRGB(11 + 19, 75 - 45, 25 + 10);
+			FlatIdent_3B073 = 1;
+		end
+		if (FlatIdent_3B073 == 1) then
+			targetText = (saveKeyEnabled and (0 + 0)) or (3 - 2);
+			TweenService:Create(SaveToggleBtn, TweenInfo.new(0.2 - 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=targetBG}):Play();
+			FlatIdent_3B073 = 2;
+		end
+		if (2 == FlatIdent_3B073) then
+			TweenService:Create(SaveToggleBtn, TweenInfo.new(0.2 - 0), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=targetText}):Play();
+			break;
+		end
+	end
+end);
+DiscordBtn['MouseButton1Click']:Connect(function()
+	if setclipboard then
+		local FlatIdent_6480C = 0;
+		while true do
+			if (0 == FlatIdent_6480C) then
+				setclipboard(DISCORD_LINK);
+				CreateNotify(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				break;
+			end
+		end
+	end
+end);
+CloseBtn['MouseButton1Click']:Connect(CloseUI);
+local isProcessing = false;
+VerifyBtn['MouseButton1Click']:Connect(function()
+	local FlatIdent_5E464 = 0;
+	local input;
+	while true do
+		if (FlatIdent_5E464 == 0) then
+			if isProcessing then
+				return;
+			end
+			input = TextBox['Text']:gsub(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']), "");
+			FlatIdent_5E464 = 1;
+		end
+		if (FlatIdent_5E464 == 1) then
+			if (input == "") then
+				CreateNotify(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			elseif (input == CORRECT_KEY) then
+				local FlatIdent_77F0F = 0;
+				while true do
+					if (FlatIdent_77F0F == 0) then
+						isProcessing = true;
+						if saveKeyEnabled then
+							SaveKeyData();
+						end
+						FlatIdent_77F0F = 1;
+					end
+					if (FlatIdent_77F0F == 1) then
+						VerifyBtn['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+						VerifyBtn['BackgroundColor3'] = Color3.fromRGB(6 + 94, 502 - 247, 5 + 95);
+						FlatIdent_77F0F = 2;
+					end
+					if (FlatIdent_77F0F == 2) then
+						SpawnConfetti();
+						task.wait(2.5 - 1);
+						FlatIdent_77F0F = 3;
+					end
+					if (FlatIdent_77F0F == 3) then
+						CloseUI();
+						LoadMainScript();
+						break;
+					end
+				end
+			else
+				CreateNotify(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+			end
+			break;
+		end
+	end
+end);
+local clOpen = false;
+ToggleCL['MouseButton1Click']:Connect(function()
+	local FlatIdent_4E320 = 0;
+	local targetTrans;
+	local animObjects;
+	while true do
+		if (FlatIdent_4E320 == 1) then
+			ToggleCL['Text'] = (clOpen and ">") or "<";
+			if clOpen then
+				ChangelogFrame['Visible'] = true;
+			end
+			FlatIdent_4E320 = 2;
+		end
+		if (FlatIdent_4E320 == 3) then
+			if clOpen then
+				local FlatIdent_1C62C = 0;
+				local checkTrans;
+				while true do
+					if (FlatIdent_1C62C == 0) then
+						checkTrans = (saveKeyEnabled and (0 + 0)) or (854 - (152 + 701));
+						TweenService:Create(SaveToggleBtn, TweenInfo.new(1311.4 - (430 + 881)), {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=checkTrans}):Play();
+						break;
+					end
+				end
+			end
+			if not clOpen then
+				task.delay(0.4 + 0, function()
+					if not clOpen then
+						ChangelogFrame['Visible'] = false;
+					end
+				end);
+			end
+			break;
+		end
+		if (FlatIdent_4E320 == 0) then
+			clOpen = not clOpen;
+			targetTrans = (clOpen and (17 - (12 + 5))) or (3 - 2);
+			FlatIdent_4E320 = 1;
+		end
+		if (FlatIdent_4E320 == 2) then
+			animObjects = {{ChangelogFrame,_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])},{CL_Stroke,_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])},{CL_Title,_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])},{DescLabel,_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])},{FuncTitle,_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])},{FuncDesc,_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])},{SaveToggleBtn,_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])},{SaveToggleLabel,_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])},{SaveToggleStroke,_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])},{DiscordBtn,_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])}};
+			for _, obj in pairs(animObjects) do
+				local FlatIdent_4A836 = 0;
+				local finalVal;
+				while true do
+					if (FlatIdent_4A836 == 1) then
+						TweenService:Create(obj[1 + 0], TweenInfo.new(0.4 - 0), {[obj[1 + 1]]=finalVal}):Play();
+						break;
+					end
+					if (FlatIdent_4A836 == 0) then
+						finalVal = targetTrans;
+						if (obj[1 - 0] ~= SaveToggleBtn) then
+						elseif clOpen then
+							finalVal = (saveKeyEnabled and (773 - (48 + 725))) or (0.5 - 0);
+						else
+							finalVal = 2 - 1;
+						end
+						FlatIdent_4A836 = 1;
+					end
+				end
+			end
+			FlatIdent_4E320 = 3;
+		end
+	end
+end);
+local function StartSequence()
+	local function obf_wrapperfunc(obf_arg)
+		if obf_arg then
+			local FlatIdent_69CF9 = 0;
+			local timeLeft;
+			local slideInfo;
+			local fadeInfo;
+			while true do
+				if (FlatIdent_69CF9 == 7) then
+					TweenService:Create(MainSuggestion, fadeInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 - 0)}):Play();
+					break;
+				end
+				if (FlatIdent_69CF9 == 0) then
+					timeLeft = CheckSavedKey();
+					if timeLeft then
+						local FlatIdent_8F6B2 = 0;
+						local pop;
+						local label;
+						while true do
+							if (FlatIdent_8F6B2 == 2) then
+								pop, label = CreateNotify(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']) .. FormatTimeLeft(timeLeft) .. _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']), 901 - (557 + 338));
+								task.spawn(function()
+									local FlatIdent_1BEAA = 0;
+									local start;
+									local endTime;
+									while true do
+										if (FlatIdent_1BEAA == 0) then
+											start = os.time();
+											endTime = obf_AND(start, timeLeft) + obf_OR(start, timeLeft);
+											FlatIdent_1BEAA = 1;
+										end
+										if (FlatIdent_1BEAA == 1) then
+											while (os.time() < endTime) and ScreenGui['Parent'] do
+												local FlatIdent_E727 = 0;
+												while true do
+													if (FlatIdent_E727 == 0) then
+														label['Text'] = _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']) .. FormatTimeLeft(endTime - os.time()) .. _G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']);
+														task.wait(1 + 0);
+														break;
+													end
+												end
+											end
+											break;
+										end
+									end
+								end);
+								FlatIdent_8F6B2 = 3;
+							end
+							if (FlatIdent_8F6B2 == 0) then
+								MainFrame['Visible'] = false;
+								ToggleCL['Visible'] = false;
+								FlatIdent_8F6B2 = 1;
+							end
+							if (FlatIdent_8F6B2 == 4) then
+								return;
+							end
+							if (FlatIdent_8F6B2 == 3) then
+								task.delay(16.5 - 10, function()
+									ScreenGui:Destroy();
+								end);
+								LoadMainScript();
+								FlatIdent_8F6B2 = 4;
+							end
+							if (FlatIdent_8F6B2 == 1) then
+								FullBG['Visible'] = false;
+								ChangelogFrame['Visible'] = false;
+								FlatIdent_8F6B2 = 2;
+							end
+						end
+					end
+					slideInfo = TweenInfo.new(3.2 - 2, Enum['EasingStyle'].Quart, Enum['EasingDirection'].Out);
+					FlatIdent_69CF9 = 1;
+				end
+				if (FlatIdent_69CF9 == 3) then
+					TweenService:Create(GreyUnderline, fadeInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(104 - (103 + 1))}):Play();
+					TweenService:Create(CloseBtn, fadeInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(554 - (475 + 79)),[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 - 0)}):Play();
+					TweenService:Create(CloseStroke, fadeInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 - 0)}):Play();
+					FlatIdent_69CF9 = 4;
+				end
+				if (FlatIdent_69CF9 == 4) then
+					TweenService:Create(ToggleCL, fadeInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 + 0),[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 + 0)}):Play();
+					TweenService:Create(ToggleStroke, fadeInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1503 - (1395 + 108))}):Play();
+					task.wait(0.2 - 0);
+					FlatIdent_69CF9 = 5;
+				end
+				if (FlatIdent_69CF9 == 1) then
+					fadeInfo = TweenInfo.new(0.8 - 0, Enum['EasingStyle'].Quad, Enum['EasingDirection'].InOut);
+					TweenService:Create(FullBG, fadeInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0.3 - 0)}):Play();
+					TweenService:Create(MainFrame, slideInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=UDim2.new(801.5 - (499 + 302), -(1026 - (39 + 827)), 0.5 - 0, -(469 - 259))}):Play();
+					FlatIdent_69CF9 = 2;
+				end
+				if (FlatIdent_69CF9 == 2) then
+					TweenService:Create(ToggleCL, slideInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=UDim2.new(0.5 - 0, -(307 - 107), 0.5 + 0, -(73 - 48))}):Play();
+					task.wait(0.6 + 0);
+					TweenService:Create(Title, fadeInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 - 0)}):Play();
+					FlatIdent_69CF9 = 3;
+				end
+				if (FlatIdent_69CF9 == 5) then
+					TweenService:Create(InputContainer, fadeInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(1204 - (7 + 1197))}):Play();
+					TweenService:Create(TextBox, fadeInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 + 0)}):Play();
+					task.wait(0.2 + 0);
+					FlatIdent_69CF9 = 6;
+				end
+				if (FlatIdent_69CF9 == 6) then
+					TweenService:Create(VerifyBtn, fadeInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(319 - (27 + 292)),[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 - 0)}):Play();
+					TweenService:Create(GetKeyBtn, fadeInfo, {[_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0'])]=(0 - 0)}):Play();
+					task.wait(0.1 - 0);
+					FlatIdent_69CF9 = 7;
+				end
+			end
+		else
+			local sdawdwqdq = obf_arg[1];
+		end
+	end
+	if (obf_tonumber(obf_stringmatch(obf_stringmatch(({obf_pcall(obf_wrapperfunc, nil)})[2], ":%d+:"), "%d+")) == 1) then
+		return obf_wrapperfunc({});
+	else
+		return StartSequence();
+	end
+end
+GetKeyBtn['MouseButton1Click']:Connect(function()
+	if setclipboard then
+		local FlatIdent_6F9C1 = 0;
+		while true do
+			if (FlatIdent_6F9C1 == 0) then
+				setclipboard(KEY_LINK);
+				CreateNotify(_G['LUAOBFUSACTOR_DECRYPT_STR_0'](_G['LUAOBFUSACTOR_DECRYPT_STR_0'], _G['LUAOBFUSACTOR_DECRYPT_STR_0']));
+				break;
+			end
+		end
+	end
+end);
+StartSequence();
